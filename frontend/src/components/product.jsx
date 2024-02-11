@@ -2,7 +2,7 @@ import Image from "next/image";
 import SearchSVG from "./searchSVG";
 import LoveSVG from "./loveSVG";
 
-export default function Product({quickview}) {
+export default function Product({quickview, image_url}) {
   return (
     <>
       <div className="w-full aspect-[2/3] p-1 bg-slate-50 rounded-xl hover:scale-[1.04] transition-all md:[&_div.items-view-favourite]:hover:flex shadow-item-shadow hover:shadow-item-hover-shadow">
@@ -25,7 +25,8 @@ export default function Product({quickview}) {
             </div>
           </div>
           <Image
-            src="/resources/tshirt/tshirt1.jpg"
+            sizes="(min-width: 800px) 50vw, 30vw"
+            src={image_url}
             alt="Product 1"
             layout="responsive"
             width={1}

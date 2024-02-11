@@ -1,8 +1,10 @@
 "use client";
 import { useState, useRef } from "react";
 import Product from "./product";
+import data from '../../data/productdata.json'
 function productGrid() {
-  let numbersArray = Array.from({ length: 30 }, (_, i) => i + 1);
+  // let numbersArray = Array.from({ length: 30 }, (_, i) => i + 1);
+  const productdata = data.products; 
   const [isVisible, setIsVisible] = useState(false);
 
   const hideQuickview = () => {
@@ -40,8 +42,8 @@ function productGrid() {
 
       <div className="mx-1 md:mx-2">
         <div className="grid grid-cols-2 gap-2 md:gap-4 content-normal sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 font-sans">
-          {numbersArray.map((number) => (
-            <Product key={number} quickview={quickview}/>
+          {productdata.map((product) => (
+            <Product key={product.id} quickview={quickview} image_url={product.image_url}/>
           ))}
         </div>
       </div>
