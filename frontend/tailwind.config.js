@@ -9,9 +9,10 @@ module.exports = {
     screens: {
       'sm': '560px',
       'md': '800px',
+      '2md': '1000px',
       'lg': '1200px',
       'xl': '1400px',
-      '2xl': '1650px',
+      '2xl': '1600px',
       'maxW': '1650px',
       'max-md': {'max': '800px'},
       'max-sm': {'max': '560px'},
@@ -23,8 +24,8 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       boxShadow: {
-        'item-shadow': '0px 8px 45px -5px rgba(0,0,0,0.79)',
-        'item-hover-shadow': '0px 8px 45px 11px rgba(0,0,0,0.79)'
+        'item-shadow': "0px 0px 10px 0px rgba(190,193,194,0.75);",
+        'item-hover-shadow': ' 0px 0px 15px 3px rgba(123,136,140,1)'
       },
       // aspectRatio: {
       //   // '3/4': '3 / 4',
