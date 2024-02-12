@@ -51,7 +51,7 @@ function productGrid() {
           onClick={(e) => e.stopPropagation()}
           id="box"
           // className="w-0 relative flex-row sm:flex p-1.5 md:p-2.5 aspect-[1/2] sm:aspect-[7/4] bg-white transition-all duration-700 opacity-0 z-50 rounded-xl"
-          className="relative flex-row sm:flex p-1.5 md:p-2.5 aspect-[1/2] sm:aspect-[7/4] bg-white transition-all duration-700 z-50 rounded-xl opacity-100 2xl:w-[1000px] w-11/12 sm:w-10/12 2md:w-9/12 lg:w-8/12"
+          className="relative flex-row sm:flex p-1.5 md:p-2.5 aspect-[1/2] sm:aspect-[8/5] bg-white transition-all duration-700 z-50 rounded-xl opacity-100 2xl:w-[1000px] w-11/12 sm:w-10/12 2md:w-10/12 lg:w-9/12"
         >
           <button className="absolute top-1.5 right-1.5 w-7 h-7 2md:w-9 2md:h-9 z-30 ">
             <svg
@@ -75,7 +75,7 @@ function productGrid() {
               objectFit="cover"
               className="absolute inset-0"
             />
-            <button className="absolute bottom-0 w-full h-12 2md:h-16 bg-gray-200 font-semibold font-serif text-xl sm:text-lg md:xl">
+            <button className="absolute bottom-0 w-full h-12 2md:h-16 bg-gray-200 font-semibold font-serif text-base md:text-lg lg:text-xl">
               View Details
             </button>
           </div>
@@ -83,43 +83,55 @@ function productGrid() {
           <div className="w-full aspect-square sm:w-7/12 sm:h-full overflow-y-auto pr-7 sm:pt-2 max-sm:p-3">
             <div className="max-sm:text-xl text-lg md:text-xl 2md:text-2xl xl:text-3xl font-semibold">
               <div className="font-serif">
-                Summer Special Play Quality Half Sleeve Jersey by NOGOR –
-                NS0302015
+                Summer Special Play Quality Half Sleeve Jersey by NOGOR
               </div>
-              <div className="mt-2 2md:mt-3">
-                <span className="text-gray-400">
+              <div className="mt-4 2md:mt-6 max-sm:mt-6">
+                <span className="text-gray-400 max-sm:text-xl text-base md:text-lg 2md:text-xl xl:text-2xl">
                   <del>
                     <span className="font-serif">৳</span>
                     600
                   </del>
                 </span>
-                <span className="pl-4">
+                <span className="pl-3 ">
                   <span className="font-serif">৳</span>
                   500
                 </span>
               </div>
             </div>
 
-            <div className="overflow-x-auto mt-8 flex ">
-              <span className="text-lg inline-block">Size:</span>
-              <ul className="custom-scroll ml-4 flex gap-x-2 whitespace-nowrap">
-                <li className="border border-gray-300 p-2 flex-none min-w-[50px]">
-                  S
-                </li>
-                <li className="border border-gray-300 p-2 flex-none min-w-[50px]">
-                  M
-                </li>
-                <li className="border border-gray-300 p-2 flex-none min-w-[50px]">
-                  L
-                </li>
-                <li className="border border-gray-300 p-2 flex-none min-w-[50px]">
-                  XL
-                </li>
-                <li className="border border-gray-300 p-2 flex-none min-w-[50px]">
-                  XXL
-                </li>
-                {/* Add more items here */}
-              </ul>
+            <div className="mt-3 xl:mt-4 flex max-sm:text-base text-sm 2md:text-base text-center">
+              <span className="inline-block p-1.5 sm:p-1 2md:p-1.5">Size:</span>
+              <div className="overflow-x-auto ml-4">
+                <ul className="flex gap-x-2 lg:gap-x-3.5 whitespace-nowrap pb-2">
+                  <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 min-w-[50px] relative bg-gray-200">
+                    <button>
+                      S
+                      <span className="custom-cross"></span>
+                    </button>
+                  </li>
+                  <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 min-w-[50px] hover:bg-black hover:text-white">
+                    <button>
+                      M
+                    </button>
+                  </li>
+                  <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 min-w-[50px] hover:bg-black hover:text-white">
+                    <button>
+                      L
+                    </button>
+                  </li>
+                  <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 min-w-[50px] hover:bg-black hover:text-white">
+                    <button>
+                      XL
+                    </button>
+                  </li>
+                  <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 min-w-[50px] hover:bg-black hover:text-white">
+                    <button>
+                      XXL
+                    </button>
+                  </li>
+                </ul>
+
+              </div>
             </div>
           </div>
         </div>

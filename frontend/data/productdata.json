@@ -9,11 +9,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -81,11 +81,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -153,11 +153,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -225,11 +225,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -297,11 +297,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -369,11 +369,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -441,11 +441,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -513,11 +513,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -585,11 +585,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -657,11 +657,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -729,11 +729,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -801,11 +801,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -873,11 +873,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -945,11 +945,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -1017,11 +1017,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -1089,11 +1089,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -1161,11 +1161,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -1233,11 +1233,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -1305,11 +1305,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -1377,11 +1377,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -1449,11 +1449,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -1521,11 +1521,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -1593,11 +1593,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -1665,11 +1665,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -1737,11 +1737,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -1809,11 +1809,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -1881,11 +1881,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
@@ -1953,11 +1953,11 @@
             "category_type": "hoodie",
             "SKU": "PDDR-32",
             "available_sizes": [
-                "S",
-                "M",
-                "L",
-                "XL",
-                "XXL"
+                {"size": "S","stock": 20},
+                {"size": "M","stock": 40},
+                {"size": "L","stock": 0},
+                {"size": "XL","stock": 15},
+                {"size": "XXL","stock": 25}
             ],
             "size_guide": [
                 {
