@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     screens: {
       'sm': '560px',
+      '2sm': '680px',
       'md': '800px',
       '2md': '1000px',
       'lg': '1200px',
@@ -27,10 +28,12 @@ module.exports = {
         'item-shadow': "0px 0px 10px 0px rgba(190,193,194,0.75);",
         'item-hover-shadow': ' 0px 0px 15px 3px rgba(123,136,140,1)'
       },
-      // aspectRatio: {
-      //   // '3/4': '3 / 4',
-      // },
     },
+    theme: {
+      fontFamily: {
+        'popup-product-name': ['Helvetica', 'Arial', 'sans-serif']
+      }
+    }
   },
   plugins: ['prettier-plugin-tailwindcss'],
 };

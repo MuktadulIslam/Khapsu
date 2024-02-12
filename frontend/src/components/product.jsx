@@ -2,7 +2,7 @@ import Image from "next/image";
 import SearchSVG from "./searchSVG";
 import LoveSVG from "./loveSVG";
 
-export default function Product({quickview, image_url}) {
+export default function Product({ quickview, image_url }) {
   return (
     <>
       <div className="w-full aspect-[2/3] p-1 bg-slate-50 rounded-xl hover:scale-[1.04] transition-all md:[&_div.items-view-favourite]:hover:flex shadow-item-shadow hover:shadow-item-hover-shadow">
@@ -10,7 +10,9 @@ export default function Product({quickview, image_url}) {
           <div className="absolute top-3 left-[-8px] text-white bg-black z-10 px-2 md:px-4 rounded-2xl text-xs md:text-sm rotate-[-45deg]">
             -25%
           </div>
-          <div className="items-view-favourite hidden absolute top-6 right-2 z-10 bg-white h-24 w-1/6 items-center justify-center rounded-lg">
+
+          {/* Product Details + Add to favourit on hover */}
+          {/* <div className="items-view-favourite hidden absolute top-6 right-2 z-10 bg-white h-24 w-1/6 items-center justify-center rounded-lg">
             <div className="grid place-items-center gap-6">
               <button className="w-full aspect-square" onClick={quickview}>
                 <div className="w-5 h-5 object-fill">
@@ -23,16 +25,33 @@ export default function Product({quickview, image_url}) {
                 </div>
               </button>
             </div>
+          </div> */}
+
+          {/* Product Add to favourit */}
+          <div className="w-1/6 aspect-square  absolute bg-white rounded-full bg-opacity-0 top-1 right-1 grid place-items-center">
+            <button className="w-6 md:w-7 aspect-square">
+              <LoveSVG />
+            </button>
           </div>
-          <Image
-            sizes="(min-width: 800px) 50vw, 30vw"
-            src={image_url}
-            alt="Product 1"
-            layout="responsive"
-            width={1}
-            height={1}
-            className="w-full aspect-square object-cover"
-          />
+
+          <div>
+            {/* For Out of Stock */}
+            {/* <div className="absolute w-full aspect-[3/1] bottom-16 bg-slate-100 bg-opacity-70 grid place-items-center">
+              <p className="text-lg lg:text-xl font-outofstock">
+                <b>OUT OF STOCK</b>
+              </p>
+            </div> */}
+
+            <Image
+              sizes="(min-width: 800px) 50vw, 30vw"
+              src={image_url}
+              alt="Product 1"
+              layout="responsive"
+              width={1}
+              height={1}
+              className="w-full aspect-square object-cover"
+            />
+          </div>
         </div>
         <div className="relative px-1">
           <div className="overflow-hidden whitespace-nowrap px-1 sm:px-2">
@@ -62,14 +81,17 @@ export default function Product({quickview, image_url}) {
         </div>
 
         <div className="mt-2 mx-1">
-          <button className="w-full h-8 md:h-10 relative bg-gray-200 rounded-lg" onClick={quickview}>
-          <div className="w-full h-7 md:h-8 relative">
-            <Image
-              src="/shopping-cart.svg"
-              fill
-              className="object-contain"
-              alt="Order Now"
-            />
+          <button
+            className="w-full h-8 md:h-10 relative bg-gray-200 rounded-lg hover:scale-[1.06]"
+            onClick={quickview}
+          >
+            <div className="w-full h-7 md:h-8 relative">
+              <Image
+                src="/shopping-cart.svg"
+                fill
+                className="object-contain"
+                alt="Order Now"
+              />
             </div>
           </button>
         </div>
