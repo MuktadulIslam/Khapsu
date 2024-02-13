@@ -88,9 +88,9 @@
   overflow-y: auto;
 }
 
-ul {
+/* ul {
   list-style-type: disc !important;
   --list-mb: 20px !important;
   --li-mb: 10px !important;
   --li-pl: 17px !important;
-}
+} */

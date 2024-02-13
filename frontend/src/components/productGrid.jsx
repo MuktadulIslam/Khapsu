@@ -21,9 +21,16 @@ const product = {
     "https://tailwindui.com/img/ecommerce-images/product-quick-preview-02-detail.jpg",
   imageAlt: "Two each of gray, white, and black shirts arranged on table.",
   colors: [
-    { name: "White", class: "bg-white", selectedClass: "ring-gray-400" },
-    { name: "Gray", class: "bg-gray-200", selectedClass: "ring-gray-400" },
-    { name: "Black", class: "bg-gray-900", selectedClass: "ring-gray-900" },
+    { name: "Black", img_src: "/resources/products/21.jpg", inStock: true },
+    { name: "Black", img_src: "/resources/products/21.jpg", inStock: true },
+    { name: "Black", img_src: "/resources/products/21.jpg", inStock: false },
+    { name: "Black", img_src: "/resources/products/21.jpg", inStock: true },
+    { name: "Black", img_src: "/resources/products/21.jpg", inStock: true },
+    { name: "Black", img_src: "/resources/products/21.jpg", inStock: true },
+    { name: "Black", img_src: "/resources/products/21.jpg", inStock: true },
+    { name: "Black", img_src: "/resources/products/21.jpg", inStock: false },
+    { name: "Black", img_src: "/resources/products/21.jpg", inStock: true },
+    { name: "Black", img_src: "/resources/products/21.jpg", inStock: true },
   ],
   sizes: [
     { name: "XXS", inStock: true },
@@ -32,7 +39,7 @@ const product = {
     { name: "M", inStock: true },
     { name: "L", inStock: true },
     { name: "XL", inStock: true },
-    { name: "XXL", inStock: true },
+    { name: "XXL", inStock: false },
     { name: "XXXL", inStock: false },
   ],
 };
@@ -43,6 +50,7 @@ function productGrid() {
   const [selectedSize, setSelectedSize] = useState(product.sizes[2]);
   const [item_count, setItem_count] = useState(0);
   const stock_number = 100;
+  console.log(selectedSize);
 
   // let numbersArray = Array.from({ length: 30 }, (_, i) => i + 1);
   const productdata = data.products;
@@ -92,7 +100,7 @@ function productGrid() {
           onClick={(e) => e.stopPropagation()}
           id="box"
           // className="w-0 relative flex-row sm:flex p-1.5 md:p-2.5 aspect-[1/2] sm:aspect-[7/4] bg-white transition-all duration-700 opacity-0 z-50 rounded-xl"
-          className="relative max-sm:max-h-[700px] max-sm:max-w-[350px] flex-row sm:flex p-1.5 md:p-2.5 aspect-[1/2] sm:aspect-[8/5] bg-white transition-all duration-700 z-50 rounded-xl opacity-100 2xl:w-[1000px] w-11/12 sm:w-10/12 2md:w-10/12 lg:w-9/12"
+          className="relative max-sm:max-h-[750px] max-sm:max-w-[400px] flex-row sm:flex p-1.5 md:p-2.5 aspect-[1/2] sm:aspect-[8/5] bg-white transition-all duration-700 z-50 rounded-xl opacity-100 2xl:w-[1000px] w-11/12 2md:w-10/12 lg:w-9/12"
         >
           <button className="absolute top-2.5 right-2.5 w-7 h-7 2md:w-9 2md:h-9 z-30 ">
             <div className="relative w-5 h-5 md:w-7 md:h-7">
@@ -165,7 +173,7 @@ function productGrid() {
             {/* Title, Review, Price End*/}
 
             {/* Size Start*/}
-            <div className="flex max-sm:text-base text-sm 2md:text-base text-center">
+            {/* <div className="flex max-sm:text-base text-sm 2md:text-base text-center">
               <span className="inline-block p-1.5 sm:p-1 2md:p-1.5 pr-6 2md:pr-6 sm:pr-5 ">
                 Size:
               </span>
@@ -189,11 +197,74 @@ function productGrid() {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
             {/* Size End */}
 
+            {/* Size2 Start */}
+            {/* Sizes */}
+            <div className="flex max-sm:text-base text-sm 2md:text-base text-center">
+              <span className="flex justify-center items-center p-1.5 sm:p-1 2md:p-1.5 pr-6 2md:pr-6 sm:pr-5 ">
+                Size:
+              </span>
+
+              <div className="overflow-x-auto ml-4 p-1">
+                <RadioGroup value={selectedSize} onChange={setSelectedSize}>
+                  <RadioGroup.Label className="sr-only">Choose a size</RadioGroup.Label>
+                  <div className="flex gap-x-2 lg:gap-x-3.5 whitespace-nowrap pb-2">
+                    {product.sizes.map((size) => (
+                      <RadioGroup.Option
+                        key={size.name}
+                        value={size}
+                        disabled={!size.inStock}
+                        className={({ active }) =>
+                          classNames(
+                            size.inStock
+                              ? 'cursor-pointer bg-white text-gray-900 shadow-sm'
+                              : 'cursor-not-allowed bg-gray-50 text-gray-200',
+                            active ? 'ring-2 ring-indigo-500' : '',
+                            'group relative flex items-center justify-center rounded-md border py-2 lg:py-3 text-sm font-medium uppercase hover:bg-gray-50 focus:outline-none sm:flex-1 min-w-[55px]'
+                          )
+                        }
+                      >
+                        {({ active, checked }) => (
+                          <>
+                            <RadioGroup.Label as="span">{size.name}</RadioGroup.Label>
+                            {size.inStock ? (
+                              <span
+                                className={classNames(
+                                  active ? 'border' : 'border-2',
+                                  checked ? 'border-indigo-500' : 'border-transparent',
+                                  'pointer-events-none absolute -inset-px rounded-md'
+                                )}
+                                aria-hidden="true"
+                              />
+                            ) : (
+                              <span
+                                aria-hidden="true"
+                                className="pointer-events-none absolute -inset-px rounded-md border-2 border-gray-200"
+                              >
+                                <svg
+                                  className="absolute inset-0 h-full w-full stroke-2 text-gray-200"
+                                  viewBox="0 0 100 100"
+                                  preserveAspectRatio="none"
+                                  stroke="currentColor"
+                                >
+                                  <line x1={0} y1={100} x2={100} y2={0} vectorEffect="non-scaling-stroke" />
+                                </svg>
+                              </span>
+                            )}
+                          </>
+                        )}
+                      </RadioGroup.Option>
+                    ))}
+                  </div>
+                </RadioGroup>
+              </div>
+            </div>
+            {/* Size2 End */}
+
             {/* Color Start */}
-            <div className="mt-3 xl:mt-4 flex max-sm:text-base text-sm 2md:text-base text-center">
+            {/* <div className="mt-3 xl:mt-4 flex max-sm:text-base text-sm 2md:text-base text-center">
               <div className="flex items-center justify-center h-16">
                 <span className="inline-block p-1.5 sm:p-1 2md:p-1.5">
                   Colors:
@@ -259,11 +330,83 @@ function productGrid() {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
             {/* Color End */}
 
+            {/* Color2 Start */}
+            <div className="flex max-sm:text-base text-sm 2md:text-base text-center mt-4">
+              <span className="flex justify-center items-center p-1.5 sm:p-1 2md:p-1.5 pr-6 2md:pr-6 sm:pr-5 ">
+                Colors:
+              </span>
+
+              <div className="flex overflow-x-auto ml-4 p-1">
+                <RadioGroup value={selectedColor} onChange={setSelectedColor}>
+                  <div className="flex gap-x-2 lg:gap-x-3.5 whitespace-nowrap">
+                    {product.colors.map((color) => (
+                      <RadioGroup.Option
+                        key={color.name}
+                        value={color}
+                        disabled={!color.inStock}
+                        className={({ active }) =>
+                          classNames(
+                            color.inStock
+                              ? 'cursor-pointer'
+                              : 'cursor-not-allowed',
+                            active ? 'ring-2 ring-indigo-500' : '',
+                            'relative rounded-md w-[55px] xl:w-16 aspect-square'
+                          )
+                        }
+                      >
+                        {({ active, checked }) => (
+                          <>
+                            <RadioGroup.Label as="span">
+                              <Image
+                                src={color.img_src}
+                                alt="Product 1"
+                                layout="fill"
+                                objectFit="cover"
+                                // className="absolute inset-0"
+                                className={classNames('absolute inset-0 rounded-md',
+                                  color.inStock ? 'opacity-100' : 'opacity-30'
+                                )}
+                              />
+                            </RadioGroup.Label>
+                            {color.inStock ? (
+                              <span
+                                className={classNames(
+                                  active ? 'border' : 'border-2',
+                                  checked ? 'border-indigo-500' : 'border-transparent',
+                                  'pointer-events-none absolute -inset-px rounded-md'
+                                )}
+                                aria-hidden="true"
+                              />
+                            ) : (
+                              <span
+                                aria-hidden="true"
+                                className="pointer-events-none absolute -inset-px rounded-md border-2 border-gray-200"
+                              >
+                                <svg
+                                  className="absolute inset-0 h-full w-full stroke-2 text-gray-200"
+                                  viewBox="0 0 100 100"
+                                  preserveAspectRatio="none"
+                                  stroke="currentColor"
+                                >
+                                  <line x1={0} y1={100} x2={100} y2={0} vectorEffect="non-scaling-stroke" />
+                                </svg>
+                              </span>
+                            )}
+                          </>
+                        )}
+                      </RadioGroup.Option>
+                    ))}
+                  </div>
+                </RadioGroup>
+              </div>
+            </div>
+            {/* Color2 End */}
+
             {/* Add to chart- buy now start*/}
-            <div className="grid grid-cols-7 h-12 2md:h-16 w-full px-4 gap-4 mt-4">
+            <div className="grid grid-cols-7 h-12 w-full px-4 gap-4 mt-8">
               <div className="w-full h-full col-span-3">
                 <div className="grid grid-cols-7 w-full h-full">
                   <div className="w-full h-full col-span-2 border-2 hover:border-0 flex justify-center items-center hover:text-white hover:bg-black text-2xl 2md:text-4xl rounded-l-xl">
@@ -306,10 +449,10 @@ function productGrid() {
               <p className="text-xl font-semibold font-serif">
                 NOGOR Special Hoodie and Joggers Set.
               </p>
-              <p className="text-base text-gray-400">
+              <p className="text-base text-gray-600 mt-2">
                 SKU: N/A <br /> Category: Jersey
               </p>
-              <ul className="text-base list-inside p-3">
+              <ul className="list-disc text-base pl-7 pt-4">
                 <li>The perfect piece, made from our customer’s voice.</li>
                 <li>Relaxed Fit</li>
                 <li>Lorem ipsum dolor sit amet.</li>
@@ -317,7 +460,7 @@ function productGrid() {
                 <li>Lorem, ipsum dolor.</li>
               </ul>
 
-              <p className="text-gray-800"> <strong><big className="pr-2">Tags:</big></strong>Classic Turtle Neck T-shirt - Unisex, full sleeve Unisex T-shirt, High Neck T-shirt, Turtle Neck T-shirt</p>
+              <p className="text-gray-800 mt-5"> <strong><big className="pr-2">Tags:</big></strong>Classic Turtle Neck T-shirt - Unisex, full sleeve Unisex T-shirt, High Neck T-shirt, Turtle Neck T-shirt</p>
             </div>
           </div>
         </div>
