@@ -3,7 +3,47 @@ import { useState, useRef } from "react";
 import Image from "next/image";
 import Product from "./product";
 import data from "../../data/productdata.json";
+import { Dialog, RadioGroup, Transition } from "@headlessui/react";
+import { XMarkIcon } from "@heroicons/react/24/outline";
+import { StarIcon } from "@heroicons/react/20/solid";
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join(" ");
+}
+
+const product = {
+  name: "Basic Tee 6-Pack ",
+  price: "$192",
+  rating: 3.9,
+  reviewCount: 117,
+  href: "#",
+  imageSrc:
+    "https://tailwindui.com/img/ecommerce-images/product-quick-preview-02-detail.jpg",
+  imageAlt: "Two each of gray, white, and black shirts arranged on table.",
+  colors: [
+    { name: "White", class: "bg-white", selectedClass: "ring-gray-400" },
+    { name: "Gray", class: "bg-gray-200", selectedClass: "ring-gray-400" },
+    { name: "Black", class: "bg-gray-900", selectedClass: "ring-gray-900" },
+  ],
+  sizes: [
+    { name: "XXS", inStock: true },
+    { name: "XS", inStock: true },
+    { name: "S", inStock: true },
+    { name: "M", inStock: true },
+    { name: "L", inStock: true },
+    { name: "XL", inStock: true },
+    { name: "XXL", inStock: true },
+    { name: "XXXL", inStock: false },
+  ],
+};
+
 function productGrid() {
+  const [open, setOpen] = useState(false);
+  const [selectedColor, setSelectedColor] = useState(product.colors[0]);
+  const [selectedSize, setSelectedSize] = useState(product.sizes[2]);
+  const [item_count, setItem_count] = useState(0);
+  const stock_number = 100;
+
   // let numbersArray = Array.from({ length: 30 }, (_, i) => i + 1);
   const productdata = data.products;
   const [isVisible, setIsVisible] = useState(false);
@@ -47,27 +87,20 @@ function productGrid() {
         id="box-container"
         className="fixed top-0 left-0 w-full h-screen flex items-center justify-center z-50 bg-slate-200 bg-opacity-60" //invisible
       >
+        {/* <div className="relative max-h-[750px] max-w-[400px]"> */}
         <div
           onClick={(e) => e.stopPropagation()}
           id="box"
           // className="w-0 relative flex-row sm:flex p-1.5 md:p-2.5 aspect-[1/2] sm:aspect-[7/4] bg-white transition-all duration-700 opacity-0 z-50 rounded-xl"
-          className="relative flex-row sm:flex p-1.5 md:p-2.5 aspect-[1/2] sm:aspect-[8/5] bg-white transition-all duration-700 z-50 rounded-xl opacity-100 2xl:w-[1000px] w-11/12 sm:w-10/12 2md:w-10/12 lg:w-9/12"
+          className="relative max-sm:max-h-[700px] max-sm:max-w-[350px] flex-row sm:flex p-1.5 md:p-2.5 aspect-[1/2] sm:aspect-[8/5] bg-white transition-all duration-700 z-50 rounded-xl opacity-100 2xl:w-[1000px] w-11/12 sm:w-10/12 2md:w-10/12 lg:w-9/12"
         >
-          <button className="absolute top-1.5 right-1.5 w-7 h-7 2md:w-9 2md:h-9 z-30 ">
-            <svg
-              className="2md:w-6 2md:h-6 w-5 h-5 text-gray-600"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M3.707 3.293a1 1 0 011.414 0L10 8.586l5.293-5.293a1 1 0 111.414 1.414L11.414 10l5.293 5.293a1 1 0 01-1.414 1.414L10 11.414l-5.293 5.293a1 1 0 01-1.414-1.414L8.586 10 3.293 4.707a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              />
-            </svg>
+          <button className="absolute top-2.5 right-2.5 w-7 h-7 2md:w-9 2md:h-9 z-30 ">
+            <div className="relative w-5 h-5 md:w-7 md:h-7">
+              <span className="custom-bold-cross"></span>
+            </div>
           </button>
 
-          <div className="relative bg-red-400 w-full aspect-square sm:w-5/12 sm:h-full sm:mr-4 max-sm:mb-4 rounded-xl overflow-hidden">
+          <div className="relative w-full aspect-square sm:w-5/12 sm:h-full sm:mr-4 max-sm:mb-4 rounded-xl overflow-hidden">
             <Image
               src={"/resources/products/21.jpg"}
               alt="Product 1"
@@ -81,11 +114,42 @@ function productGrid() {
           </div>
 
           <div className="w-full aspect-square sm:w-7/12 sm:h-full overflow-y-auto pr-7 sm:pt-2 max-sm:p-3">
-            <div className="max-sm:text-xl text-lg md:text-xl 2md:text-2xl xl:text-3xl font-semibold">
+            {/* Title, Review, Price Start*/}
+            <div className="max-sm:text-xl text-lg md:text-xl 2md:text-2xl xl:text-3xl font-semibold sm:pr-3">
               <div className="font-serif">
                 Summer Special Play Quality Half Sleeve Jersey by NOGOR
               </div>
-              <div className="mt-4 2md:mt-6 max-sm:mt-6">
+
+              {/* Reviews */}
+              <div className="mt-6">
+                <h4 className="sr-only">Reviews</h4>
+                <div className="flex items-center">
+                  <div className="flex items-center">
+                    {[0, 1, 2, 3, 4].map((rating) => (
+                      <StarIcon
+                        key={rating}
+                        className={classNames(
+                          product.rating > rating
+                            ? "text-gray-900"
+                            : "text-gray-200",
+                          "h-5 w-5 flex-shrink-0"
+                        )}
+                        aria-hidden="true"
+                      />
+                    ))}
+                  </div>
+                  <p className="sr-only">{product.rating} out of 5 stars</p>
+                  <a
+                    href="#"
+                    className="ml-3 text-sm font-medium text-indigo-600 hover:text-indigo-500"
+                  >
+                    {product.reviewCount} reviews
+                  </a>
+                </div>
+              </div>
+              {/* Reviews end */}
+
+              <div className="mt-2 mb-8">
                 <span className="text-gray-400 max-sm:text-xl text-base md:text-lg 2md:text-xl xl:text-2xl">
                   <del>
                     <span className="font-serif">৳</span>
@@ -98,44 +162,167 @@ function productGrid() {
                 </span>
               </div>
             </div>
+            {/* Title, Review, Price End*/}
 
-            <div className="mt-3 xl:mt-4 flex max-sm:text-base text-sm 2md:text-base text-center">
-              <span className="inline-block p-1.5 sm:p-1 2md:p-1.5">Size:</span>
+            {/* Size Start*/}
+            <div className="flex max-sm:text-base text-sm 2md:text-base text-center">
+              <span className="inline-block p-1.5 sm:p-1 2md:p-1.5 pr-6 2md:pr-6 sm:pr-5 ">
+                Size:
+              </span>
               <div className="overflow-x-auto ml-4">
                 <ul className="flex gap-x-2 lg:gap-x-3.5 whitespace-nowrap pb-2">
                   <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 min-w-[50px] relative bg-gray-200">
+                    <span className="custom-cross"></span>
+                    <button>S</button>
+                  </li>
+                  <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 min-w-[50px] relative hover:bg-black hover:text-white">
+                    <button>M</button>
+                  </li>
+                  <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 min-w-[50px] relative hover:bg-black hover:text-white">
+                    <button>L</button>
+                  </li>
+                  <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 min-w-[50px] relative hover:bg-black hover:text-white">
+                    <button>XL</button>
+                  </li>
+                  <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 min-w-[50px] relative hover:bg-black hover:text-white">
+                    <button>XXL</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            {/* Size End */}
+
+            {/* Color Start */}
+            <div className="mt-3 xl:mt-4 flex max-sm:text-base text-sm 2md:text-base text-center">
+              <div className="flex items-center justify-center h-16">
+                <span className="inline-block p-1.5 sm:p-1 2md:p-1.5">
+                  Colors:
+                </span>
+              </div>
+              <div className="overflow-x-auto ml-4 h-16">
+                <ul className="flex gap-x-2 lg:gap-x-3.5 whitespace-nowrap pb-2 h-full">
+                  <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 aspect-square h-full relative hover:h-[110%]">
                     <button>
-                      S
-                      <span className="custom-cross"></span>
+                      <Image
+                        src={"/resources/products/21.jpg"}
+                        alt="Product 1"
+                        layout="fill"
+                        objectFit="cover"
+                        className="absolute inset-0"
+                      />
                     </button>
                   </li>
-                  <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 min-w-[50px] hover:bg-black hover:text-white">
+                  <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 aspect-square h-full relative hover:h-[110%]">
                     <button>
-                      M
+                      <Image
+                        src={"/resources/products/21.jpg"}
+                        alt="Product 1"
+                        layout="fill"
+                        objectFit="cover"
+                        className="absolute inset-0"
+                      />
                     </button>
                   </li>
-                  <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 min-w-[50px] hover:bg-black hover:text-white">
+                  <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 aspect-square h-full relative">
+                    <span className="custom-bold-cross"></span>
                     <button>
-                      L
+                      <Image
+                        src={"/resources/products/21.jpg"}
+                        alt="Product 1"
+                        layout="fill"
+                        objectFit="cover"
+                        className="absolute inset-0  opacity-50"
+                      />
                     </button>
                   </li>
-                  <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 min-w-[50px] hover:bg-black hover:text-white">
+                  <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 aspect-square h-full relative hover:h-[110%]">
                     <button>
-                      XL
+                      <Image
+                        src={"/resources/products/21.jpg"}
+                        alt="Product 1"
+                        layout="fill"
+                        objectFit="cover"
+                        className="absolute inset-0"
+                      />
                     </button>
                   </li>
-                  <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 min-w-[50px] hover:bg-black hover:text-white">
+                  <li className="border border-gray-300 p-1.5 sm:p-1 2md:p-1.5 aspect-square h-full relative hover:h-[110%]">
                     <button>
-                      XXL
+                      <Image
+                        src={"/resources/products/21.jpg"}
+                        alt="Product 1"
+                        layout="fill"
+                        objectFit="cover"
+                        className="absolute inset-0"
+                      />
                     </button>
                   </li>
                 </ul>
-
               </div>
+            </div>
+            {/* Color End */}
+
+            {/* Add to chart- buy now start*/}
+            <div className="grid grid-cols-7 h-12 2md:h-16 w-full px-4 gap-4 mt-4">
+              <div className="w-full h-full col-span-3">
+                <div className="grid grid-cols-7 w-full h-full">
+                  <div className="w-full h-full col-span-2 border-2 hover:border-0 flex justify-center items-center hover:text-white hover:bg-black text-2xl 2md:text-4xl rounded-l-xl">
+                    <button
+                      className="w-full h-full"
+                      onClick={() => {
+                        if (item_count < stock_number)
+                          setItem_count(item_count + 1);
+                      }}
+                    >
+                      +
+                    </button>
+                  </div>
+                  <div className="w-full h-full col-span-3 border-y-2 flex justify-center items-center text-lg 2md:text-2xl">
+                    {item_count}
+                  </div>
+                  <div className="w-full h-full col-span-2 border-2 hover:border-0 flex justify-center items-center hover:text-white hover:bg-black text-2xl 2md:text-4xl rounded-r-xl">
+                    <button
+                      className="w-full h-full"
+                      onClick={() => {
+                        if (item_count > 0) setItem_count(item_count - 1);
+                      }}
+                    >
+                      -
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className="w-full h-full col-span-2 text-center bg-gray-200 hover:text-white hover:bg-black text-sm 2md:text-base font-semibold flex justify-center items-center rounded-lg">
+                Add to Cart
+              </div>
+              <div className="w-full h-full col-span-2 text-center text-white bg-black text-sm 2md:text-base font-semibold flex justify-center items-center rounded-lg hover:scale-105">
+                Buy Now
+              </div>
+            </div>
+            <div className="h-0.5 w-full bg-gray-400 mt-8"></div>
+            {/* Add to chart- buy now end*/}
+
+            <div className="my-6">
+              <p className="text-xl font-semibold font-serif">
+                NOGOR Special Hoodie and Joggers Set.
+              </p>
+              <p className="text-base text-gray-400">
+                SKU: N/A <br /> Category: Jersey
+              </p>
+              <ul className="text-base list-inside p-3">
+                <li>The perfect piece, made from our customer’s voice.</li>
+                <li>Relaxed Fit</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
+                <li>Lorem, ipsum dolor.</li>
+              </ul>
+
+              <p className="text-gray-800"> <strong><big className="pr-2">Tags:</big></strong>Classic Turtle Neck T-shirt - Unisex, full sleeve Unisex T-shirt, High Neck T-shirt, Turtle Neck T-shirt</p>
             </div>
           </div>
         </div>
       </div>
+      {/* </div> */}
 
       {/* Popup View End*/}
 

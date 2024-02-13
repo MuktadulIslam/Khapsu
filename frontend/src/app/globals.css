@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 ::-webkit-scrollbar {
   height: 5px;
   width: 5px;
@@ -20,7 +19,8 @@
   background: #555;
 }
 
-.custom-cross {
+.custom-cross,
+.custom-bold-cross {
   position: absolute;
   top: 0;
   left: 0;
@@ -29,13 +29,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 40;
 }
 
 .custom-cross::before,
-.custom-cross::after {
+.custom-cross::after,
+.custom-bold-cross::before,
+.custom-bold-cross::after {
   content: "";
   position: absolute;
-  background-color: black;
+  background-color: rgb(135, 138, 138);
   width: 1px; /* Set the width to 2px */
 }
 
@@ -53,4 +56,41 @@
   height: 100%;
 }
 
+.custom-bold-cross::before,
+.custom-bold-cross::after {
+  width: 3px;
+}
 
+.custom-cross::before,
+.custom-cross::after {
+  width: 1px;
+}
+
+.custom-cross::before,
+.custom-bold-cross::before {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  height: 100%;
+}
+
+.custom-bold-cross::after,
+.custom-bold-cross::after {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) rotate(-45deg);
+  height: 100%;
+}
+
+.custom-popup-main {
+  height: 90vh !important;
+  width: 90vw !important;
+  overflow-y: auto;
+}
+
+ul {
+  list-style-type: disc !important;
+  --list-mb: 20px !important;
+  --li-mb: 10px !important;
+  --li-pl: 17px !important;
+}
