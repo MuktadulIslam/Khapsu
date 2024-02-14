@@ -479,6 +479,8 @@ function productGrid() {
           </div>
         </div>
       </div>
+      {/* </div> */}
+
       {/* Popup View End*/}
 
       <div className="mx-1 md:mx-2">

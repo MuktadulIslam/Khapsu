@@ -4,16 +4,33 @@
             "id": "FS001",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -42,12 +59,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -63,6 +80,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/1.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -76,16 +120,33 @@
             "id": "FS002",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -114,12 +175,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -135,6 +196,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/2.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -148,16 +236,33 @@
             "id": "FS003",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -186,12 +291,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -207,6 +312,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/3.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -220,16 +352,33 @@
             "id": "FS004",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -258,12 +407,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -279,6 +428,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/4.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -292,16 +468,33 @@
             "id": "FS005",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -330,12 +523,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -351,6 +544,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/5.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -364,16 +584,33 @@
             "id": "FS006",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -402,12 +639,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -423,6 +660,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/6.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -436,16 +700,33 @@
             "id": "FS007",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -474,12 +755,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -495,6 +776,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/7.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -508,16 +816,33 @@
             "id": "FS008",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -546,12 +871,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -567,6 +892,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/8.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -580,16 +932,33 @@
             "id": "FS009",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -618,12 +987,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -639,6 +1008,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/9.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -652,16 +1048,33 @@
             "id": "FS010",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -690,12 +1103,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -711,6 +1124,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/10.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -724,16 +1164,33 @@
             "id": "FS011",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -762,12 +1219,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -783,6 +1240,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/11.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -796,16 +1280,33 @@
             "id": "FS012",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -834,12 +1335,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -855,6 +1356,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/12.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -868,16 +1396,33 @@
             "id": "FS013",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -906,12 +1451,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -927,6 +1472,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/13.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -940,16 +1512,33 @@
             "id": "FS014",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -978,12 +1567,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -999,6 +1588,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/14.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -1012,16 +1628,33 @@
             "id": "FS015",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -1050,12 +1683,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -1071,6 +1704,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/15.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -1084,16 +1744,33 @@
             "id": "FS016",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -1122,12 +1799,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -1143,6 +1820,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/16.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -1156,16 +1860,33 @@
             "id": "FS017",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -1194,12 +1915,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -1215,6 +1936,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/17.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -1228,16 +1976,33 @@
             "id": "FS018",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -1266,12 +2031,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -1287,6 +2052,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/18.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -1300,16 +2092,33 @@
             "id": "FS019",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -1338,12 +2147,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -1359,6 +2168,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/19.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -1372,16 +2208,33 @@
             "id": "FS020",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -1410,12 +2263,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -1431,6 +2284,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/20.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -1444,16 +2324,33 @@
             "id": "FS021",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -1482,12 +2379,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -1503,6 +2400,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/6.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/6.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/6.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -1516,16 +2440,33 @@
             "id": "FS022",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -1554,12 +2495,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -1575,6 +2516,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/22.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -1588,16 +2556,33 @@
             "id": "FS023",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -1626,12 +2611,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -1647,6 +2632,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/23.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -1660,16 +2672,33 @@
             "id": "FS024",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -1698,12 +2727,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -1719,6 +2748,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/24.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -1732,16 +2788,33 @@
             "id": "FS025",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -1770,12 +2843,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -1791,6 +2864,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/25.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -1804,16 +2904,33 @@
             "id": "FS026",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -1842,12 +2959,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -1863,6 +2980,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/26.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -1876,16 +3020,33 @@
             "id": "FS027",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -1914,12 +3075,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -1935,6 +3096,33 @@
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
             ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/27.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
+            ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
                 "The perfect piece, made from our customer’s voice.",
@@ -1948,16 +3136,33 @@
             "id": "FS028",
             "price": 1000,
             "discount_price": 800,
-            "name": "NOGOR Special Hoodie and Joggers Set.",
+            "name": "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+            "title": "NOGOR Special Hoodie and Joggers Set.",
             "category": "Classic Hoodie",
             "category_type": "hoodie",
             "SKU": "PDDR-32",
-            "available_sizes": [
-                {"size": "S","stock": 20},
-                {"size": "M","stock": 40},
-                {"size": "L","stock": 0},
-                {"size": "XL","stock": 15},
-                {"size": "XXL","stock": 25}
+            "reviewCount": 117,
+            "sizes": [
+                {
+                    "size": "S",
+                    "stock_size": 20
+                },
+                {
+                    "size": "M",
+                    "stock_size": 40
+                },
+                {
+                    "size": "L",
+                    "stock_size": 0
+                },
+                {
+                    "size": "XL",
+                    "stock_size": 15
+                },
+                {
+                    "size": "XXL",
+                    "stock_size": 25
+                }
             ],
             "size_guide": [
                 {
@@ -1986,12 +3191,12 @@
                     "length": 30
                 }
             ],
-            "stock_number": 100,
             "tag_names": [
                 "Casual",
                 "Men's Fashion",
                 "hoodie"
             ],
+            "rating": 3.9,
             "ratings": {
                 "level1": 4,
                 "level2": 5,
@@ -2006,6 +3211,33 @@
                 "/resources/fullsleeve5.jpg",
                 "/resources/fullsleeve6.jpg",
                 "/resources/fullsleeve7.jpg"
+            ],
+            "colors": [
+                {
+                    "name": "Black",
+                    "img_src": "/resources/products/28.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "White",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Blue",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 0
+                },
+                {
+                    "name": "Red",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                },
+                {
+                    "name": "Pink",
+                    "img_src": "/resources/products/21.jpg",
+                    "stock_size": 25
+                }
             ],
             "description": "Looking for a stylish and comfortable t-shirt that can go with any outfit? Look no further than this short-sleeved crew neck Play Quality Half Sleeve Jersey. This t-shirt is made of 95% polyester and 5% synthetic fabric, which gives it a soft and stretchy feel. The slim fit and straight hem make it flattering and easy to wear.",
             "point_description": [
