@@ -4,6 +4,9 @@ import LoveSVG from "./LoveSVG";
 import { quickview } from "./ProductDetails";
 
 export default function Product({ productdata}) {
+    const quickview = () => {
+        
+    }
   return (
     <>
       <div className="w-full aspect-[2/3] minmax-lg:aspect-[4/3] p-1 bg-slate-50 rounded-xl hover:scale-[1.04] transition-all md:[&_div.items-view-favourite]:hover:flex shadow-item-shadow hover:shadow-item-hover-shadow">

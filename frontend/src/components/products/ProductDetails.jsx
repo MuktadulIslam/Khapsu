@@ -38,8 +38,7 @@ export const hideQuickview = () => {
   );
   box.classList.add("opacity-0", "w-0");
 };
-export const quickview = (productdata) => {
-    console.log(productdata)
+export const quickview = () => {
   const box = document.getElementById("box");
   const boxContainer = document.getElementById("box-container");
 
@@ -56,56 +55,57 @@ export const quickview = (productdata) => {
   box.classList.remove("opacity-0", "w-0");
 };
 
-export default function ProductDetails() {
+export default function ProductDetails({productdata}) {
   // This data will fatch from server by product ID and SKU id
-  const productdata = {
-    id: "FS001",
-    price: 1000,
-    discount_price: 800,
-    name: "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
-    title: "NOGOR Special Hoodie and Joggers Set.",
-    category: "Classic Hoodie",
-    category_type: "hoodie",
-    SKU: "PDDR-32",
-    reviewCount: 1117,
-    tag_names: ["Casual", "Men's Fashion", "hoodie"],
-    rating: 2.9,
-    colors: [
-      { name: "Black", img_src: "/resources/products/1.jpg", stock_size: 10 },
-      { name: "White", img_src: "/resources/products/21.jpg", stock_size: 20 },
-      { name: "Blue", img_src: "/resources/products/21.jpg", stock_size: 0 },
-      { name: "Red", img_src: "/resources/products/21.jpg", stock_size: 20 },
-      { name: "Pink", img_src: "/resources/products/21.jpg", stock_size: 50 },
-    ],
-    sizes: [
-      // { name: "XXS", inStock: true },
-      // { name: "XS", inStock: true },
-      { name: "S", stock_size: 30 },
-      { name: "M", stock_size: 23 },
-      { name: "L", stock_size: 30 },
-      { name: "XL", stock_size: 0 },
-      { name: "XXL", stock_size: 27 },
-      // { name: "XXXL", inStock: false },
-    ],
-    point_description: [
-      "The perfect piece, made from our customer’s voice.",
-      "Relaxed Fit",
-      "Comfortable full sleeve Unisex T-shirt.",
-      "Fabric: Stretch China Polyester",
-      "GSM: 230-290",
-    ],
-  };
-
+//   const productdata = {
+//     id: "FS001",
+//     price: 1000,
+//     discount_price: 800,
+//     name: "Summer Special Play Quality Half Sleeve Jersey by NOGOR",
+//     title: "NOGOR Special Hoodie and Joggers Set.",
+//     category: "Classic Hoodie",
+//     category_type: "hoodie",
+//     SKU: "PDDR-32",
+//     reviewCount: 1117,
+//     tag_names: ["Casual", "Men's Fashion", "hoodie"],
+//     rating: 2.9,
+//     colors: [
+//       { name: "Black", img_src: "/resources/products/1.jpg", stock_size: 10 },
+//       { name: "White", img_src: "/resources/products/21.jpg", stock_size: 20 },
+//       { name: "Blue", img_src: "/resources/products/21.jpg", stock_size: 0 },
+//       { name: "Red", img_src: "/resources/products/21.jpg", stock_size: 20 },
+//       { name: "Pink", img_src: "/resources/products/21.jpg", stock_size: 50 },
+//     ],
+//     sizes: [
+//       { name: "XXS", inStock: true },
+//       { name: "XS", inStock: true },
+//       { name: "S", stock_size: 0 },
+//       { name: "M", stock_size: 23 },
+//       { name: "L", stock_size: 30 },
+//       { name: "XL", stock_size: 0 },
+//       { name: "XXL", stock_size: 27 },
+//       { name: "XXXL", inStock: false },
+//     ],
+//     point_description: [
+//       "The perfect piece, made from our customer’s voice.",
+//       "Relaxed Fit",
+//       "Comfortable full sleeve Unisex T-shirt.",
+//       "Fabric: Stretch China Polyester",
+//       "GSM: 230-290",
+//     ],
+//   };
+    console.log("productdata2\n",productdata)
   const [item_count, setItem_count] = useState(0);
-  const [selectedColor, setSelectedColor] = useState(productdata.colors[0]);
-  const [selectedSize, setSelectedSize] = useState(productdata.sizes[0]);
+  const [selectedColor, setSelectedColor] = useState(JSON.stringify(productdata.colors[0]));
+  const [selectedSize, setSelectedSize] = useState(JSON.stringify(productdata.sizes[0]));
 
-  const stock_number =
-    selectedColor.stock_size > selectedSize.stock_size
-      ? selectedSize.stock_size
-      : selectedColor.stock_size;
+  const selectedSizeData = JSON.parse(selectedSize)
+  const selectedColorData = JSON.parse(selectedColor)
+//   console.log("selectedColor\n",selectedColorData)
+//   console.log("selectedSize\n",selectedSizeData)
 
-  console.log(item_count, stock_number, selectedColor, selectedSize);
+  const stock_number = (selectedColorData.stock_size > selectedSizeData.stock_size) ? selectedSizeData.stock_size : selectedColorData.stock_size;
+
   return (
     <>
       {/* Popup View Start*/}
@@ -113,13 +113,11 @@ export default function ProductDetails() {
         onClick={hideQuickview}
         id="box-container"
         className="fixed top-0 left-0 w-full h-screen flex items-center justify-center z-50 bg-slate-200 bg-opacity-60 invisible"
-        // className="fixed top-0 left-0 w-full h-screen flex items-center justify-center z-50 bg-slate-200 bg-opacity-60"
       >
         <div
           onClick={(e) => e.stopPropagation()}
           id="box"
           className="relative opacity-0 w-0 flex-row sm:flex p-1.5 md:p-2.5 aspect-[1/2] sm:aspect-[8/5] bg-white transition-all duration-700 z-50 rounded-xl"
-          //   className="relative lex-row sm:flex p-1.5 md:p-2.5 aspect-[1/2] sm:aspect-[8/5] bg-white transition-all duration-700 z-50 rounded-xl opacity-100 2xl:w-[1000px] w-11/12 2md:w-10/12 lg:w-9/12 max-sm:max-h-[750px] max-sm:max-w-[400px]"
         >
           <button
             className="absolute top-2.5 right-2.5 w-7 h-7 2md:w-9 2md:h-9 z-30"
@@ -132,7 +130,7 @@ export default function ProductDetails() {
 
           <div className="relative w-full aspect-square sm:w-5/12 sm:h-full sm:mr-4 max-sm:mb-4 rounded-xl overflow-hidden">
             <Image
-              src={"/resources/products/21.jpg"}
+              src={selectedColorData.img_src}
               alt="Product 1"
               layout="fill"
               objectFit="cover"
@@ -206,8 +204,8 @@ export default function ProductDetails() {
                   <div className="flex gap-x-2 lg:gap-x-3.5 whitespace-nowrap pb-2">
                     {productdata.sizes.map((size) => (
                       <RadioGroup.Option
-                        key={size.name}
-                        value={size.name}
+                        key={JSON.stringify(size)}
+                        value={JSON.stringify(size)}
                         disabled={!(size.stock_size > 0)}
                         className={({ active }) =>
                           classNames(
@@ -278,8 +276,8 @@ export default function ProductDetails() {
                   <div className="flex gap-x-2 lg:gap-x-3.5 whitespace-nowrap">
                     {productdata.colors.map((color) => (
                       <RadioGroup.Option
-                        key={color.name}
-                        value={color.name}
+                        key={JSON.stringify(color)}
+                        value={JSON.stringify(color)}
                         disabled={!(color.stock_size > 0)}
                         className={({ active }) =>
                           classNames(
@@ -416,18 +414,6 @@ export default function ProductDetails() {
         </div>
       </div>
       {/* Popup View End*/}
-
-      {/* <div className="mx-1 md:mx-2">
-        <div className="grid grid-cols-2 gap-2 md:gap-4 content-normal sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 font-sans">
-          {products.map((product) => (
-            <Product
-              key={product.id}
-              quickview={quickview}
-              image_url={product.image_url}
-            />
-          ))}
-        </div>
-      </div> */}
     </>
   );
 }
