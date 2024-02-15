@@ -19,18 +19,17 @@ export default function MainPage() {
   return (
     <>
       <ProductDetailsContext.Provider value={{ selectedProduct, setSelectedProduct }}>
-      <ProductDetails productdata={selectedProduct}/>
 
       <div className="w-full h-20 bg-black text-2xl text-white text-center"> New Arrival</div>
-      <ProductGrid productsdata={newarrivalProducts} setSelectedProduct={setSelectedProduct} />
+      <ProductGrid productsdata={newarrivalProducts}/>
       <div className="m-10"></div>
 
       <div className="w-full h-20 bg-black text-2xl text-white text-center">Tranding Products</div>
-      <ProductGrid productsdata={trandingProducts} setSelectedProduct={setSelectedProduct} />
+      <ProductGrid productsdata={trandingProducts}/>
       <div className="m-10"></div>
 
       <div className="w-full h-20 bg-black text-2xl text-white text-center"> Most Selling</div>
-      <ProductGrid productsdata={mostsellingProducts} setSelectedProduct={setSelectedProduct} />
+      <ProductGrid productsdata={mostsellingProducts}/>
       <div className="m-10"></div>
     </ProductDetailsContext.Provider>
 

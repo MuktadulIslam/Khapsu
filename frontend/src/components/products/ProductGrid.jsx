@@ -1,3 +1,6 @@
+"use client"
+import { createContext, useRef, useState } from 'react';
+
 import Product from "./Product";
 import data from "../../../data/productdata.json";
 import ProductDetails from "./ProductDetails";
@@ -5,11 +8,14 @@ import Image from "next/image";
 import LoveSVG from "./LoveSVG";
 import { quickview } from "./ProductDetails";
 import ProductDetailsViewButton from "./ProductDetailsViewButton";
+import InitialProductData from "./InitialProductData";
 
-export default function ProductGrid({productsdata, setSelectedProduct}) {
+export default function ProductGrid({productsdata}) {
+    const [selectedProduct,setSelectedProduct] = useState(InitialProductData);
     // console.log(setSelectedProduct)
   return (
     <>
+    <ProductDetails productdata={selectedProduct}/>
       <div className="mx-1 md:mx-2">
         <div className="grid grid-cols-2 gap-2 md:gap-4 content-normal sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6 font-sans">
           {productsdata.map((productdata, index) => (
