@@ -5,7 +5,7 @@ import LoveSVG from "./loveSVG";
 export default function Product({ quickview, image_url }) {
   return (
     <>
-      <div className="w-full aspect-[2/3] p-1 bg-slate-50 rounded-xl hover:scale-[1.04] transition-all md:[&_div.items-view-favourite]:hover:flex shadow-item-shadow hover:shadow-item-hover-shadow">
+      <div className="w-full aspect-[2/3] minmax-lg:aspect-[4/3] p-1 bg-slate-50 rounded-xl hover:scale-[1.04] transition-all md:[&_div.items-view-favourite]:hover:flex shadow-item-shadow hover:shadow-item-hover-shadow">
         <div className="relative">
           <div className="absolute top-3 left-[-8px] text-white bg-black z-10 px-2 md:px-4 rounded-2xl text-xs md:text-sm rotate-[-45deg]">
             -25%
@@ -55,7 +55,7 @@ export default function Product({ quickview, image_url }) {
         </div>
         <div className="relative px-1">
           <div className="overflow-hidden whitespace-nowrap px-1 sm:px-2">
-            <p className="text-sm lg:text-lg font-medium mt-1">
+            <p className="text-sm lg:text-base xl:text-lg font-medium mt-1">
               Summer Special Play Quality Half Sleeve Jersey by NOGOR
             </p>
             <p className="font-medium text-xs lg:text-sm text-gray-500 mt-[-4px]">

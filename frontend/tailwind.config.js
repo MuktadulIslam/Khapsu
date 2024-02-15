@@ -17,6 +17,7 @@ module.exports = {
       'maxW': '1650px',
       'max-md': {'max': '800px'},
       'max-sm': {'max': '560px'},
+      'minmax-lg': {'min': '1000px', 'max': '1200px'},
     },
     extend: {
       backgroundImage: {
