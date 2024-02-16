@@ -378,6 +378,9 @@ export default function ProductDetails({ productdata }) {
                           if (item_count < stockSize.current) {
                             setItem_count(item_count + 1);
                           }
+                          else {
+                            alert("Your selection has gracefully reached our maximum stock capacity😊")
+                          }
                         }}
                       >
                         +

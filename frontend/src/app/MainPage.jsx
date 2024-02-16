@@ -1,5 +1,5 @@
 "use client"
-import { createContext, useRef, useState } from 'react';
+import { createContext, useState } from 'react';
 import ProductGrid from "@/components/products/ProductGrid";
 import data from "../../data/productdata.json";
 import ProductDetails from "@/components/products/ProductDetails";
