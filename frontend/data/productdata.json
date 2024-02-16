@@ -13,54 +13,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
-          "stock_size": 20
+          "name": "S",
+          "stock_size": 2
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -90,17 +94,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -126,54 +130,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -203,17 +211,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -239,54 +247,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -316,17 +328,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -352,54 +364,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -429,17 +445,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -465,54 +481,58 @@
       "stock_size": 0,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -542,17 +562,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -578,54 +598,58 @@
       "stock_size": 0,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -655,17 +679,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -691,54 +715,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -768,17 +796,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -804,54 +832,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -881,17 +913,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -917,54 +949,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -994,17 +1030,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -1030,54 +1066,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -1107,17 +1147,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -1143,54 +1183,58 @@
       "stock_size": 0,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -1220,17 +1264,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -1256,54 +1300,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -1333,17 +1381,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -1369,54 +1417,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -1446,17 +1498,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -1482,54 +1534,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -1559,17 +1615,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -1595,54 +1651,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -1672,17 +1732,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -1708,54 +1768,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -1785,17 +1849,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -1821,54 +1885,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -1898,17 +1966,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -1934,54 +2002,58 @@
       "stock_size": 0,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -2011,17 +2083,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -2047,54 +2119,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -2124,17 +2200,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -2160,54 +2236,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -2237,17 +2317,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -2273,54 +2353,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -2350,17 +2434,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/6.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/6.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -2386,54 +2470,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -2463,17 +2551,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/6.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -2499,54 +2587,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -2576,17 +2668,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/25.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -2612,54 +2704,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -2689,17 +2785,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/25.jpg",
           "stock_size": 25
         }
       ],
@@ -2725,54 +2821,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -2802,17 +2902,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -2838,54 +2938,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -2915,17 +3019,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -2951,54 +3055,58 @@
       "stock_size": 30,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -3028,17 +3136,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],
@@ -3064,54 +3172,58 @@
       "stock_size": 0,
       "sizes": [
         {
-          "size": "S",
+          "name": "S",
           "stock_size": 20
         },
         {
-          "size": "M",
+          "name": "M",
           "stock_size": 40
         },
         {
-          "size": "L",
+          "name": "L",
           "stock_size": 0
         },
         {
-          "size": "XL",
+          "name": "XL",
           "stock_size": 15
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "stock_size": 25
         }
       ],
       "size_guide": [
         {
-          "size": "S",
+          "name": "S",
           "chest": 36,
           "length": 26
         },
         {
-          "size": "M",
+          "name": "M",
           "chest": 38,
           "length": 27
         },
         {
-          "size": "L",
+          "name": "L",
           "chest": 40,
           "length": 28
         },
         {
-          "size": "XL",
+          "name": "XL",
           "chest": 42,
           "length": 29
         },
         {
-          "size": "XXL",
+          "name": "XXL",
           "chest": 43,
           "length": 30
         }
       ],
-      "tag_names": ["Casual", "Men's Fashion", "hoodie"],
+      "tag_names": [
+        "Casual",
+        "Men's Fashion",
+        "hoodie"
+      ],
       "rating": 3.9,
       "ratings": {
         "level1": 4,
@@ -3141,17 +3253,17 @@
         },
         {
           "name": "Blue",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/22.jpg",
           "stock_size": 0
         },
         {
           "name": "Red",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/23.jpg",
           "stock_size": 25
         },
         {
           "name": "Pink",
-          "img_src": "/resources/products/21.jpg",
+          "img_src": "/resources/products/24.jpg",
           "stock_size": 25
         }
       ],

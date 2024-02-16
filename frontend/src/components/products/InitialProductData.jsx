@@ -1,5 +1,5 @@
 export default function InitialProductData() {
-  return {
+  return ({
     id: "FS001",
     price: 1000,
     discount_price: 800,
@@ -112,5 +112,5 @@ export default function InitialProductData() {
       "Fabric: Stretch China Polyester",
       "GSM: 230-290",
     ],
-  };
+  })
 }
