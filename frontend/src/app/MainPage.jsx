@@ -2,7 +2,6 @@
 import { createContext, useRef, useState } from 'react';
 import ProductGrid from "@/components/products/ProductGrid";
 import data from "../../data/productdata.json";
-import InitialProductData from '@/components/products/InitialProductData';
 
 export default function MainPage() {
   const productsdata = data.products;
@@ -12,8 +11,7 @@ export default function MainPage() {
   const mostsellingProducts = productsdata.slice(0, 18);
 
   const ProductDetailsContext = createContext();
-  const [selectedProduct,setSelectedProduct] = useState(InitialProductData);
-//   const selectedProduct = useRef(InitialProductData)
+  const [selectedProduct,setSelectedProduct] = useState();
 
   return (
     <>

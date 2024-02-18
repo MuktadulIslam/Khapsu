@@ -9,7 +9,7 @@ import MainPage from "./MainPage";
 export default function Home() {
   return (
     <>
-      <div className="max-w-screen-maxW m-auto box-border bg-white">
+      <div>
         {/* <div className="w-full h-20 bg-black"></div>
         <ProductDetailsContext.Provider>
         <ProductGrid />
