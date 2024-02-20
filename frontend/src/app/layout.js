@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/top_components/Footer";
 import Navbar from "./Navbar";
+import Dmeo from "./Demo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.className} top-0 max-w-screen-maxW m-auto box-border bg-white`}>
         <Navbar/>
+        {/* <Dmeo/> */}
         {/* {children}
         <Footer/> */}
       </body>

@@ -2,65 +2,90 @@
 import { Black_Ops_One } from "next/font/google";
 import { useState } from "react";
 const blackOpsOne = Black_Ops_One({
-  weight: ["400"],
-  style: ["normal"],
-  preload: false,
+    weight: ["400"],
+    style: ["normal"],
+    preload: false,
 });
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
+    return classes.filter(Boolean).join(" ");
 }
 
 export default function Navbar() {
-  const openMobileSearchMenu = () => {
-    const navbarItems = document.getElementById("navbar-items");
-    const mobileSearchMenu = document.getElementById("mobile-search-menu");
-    navbarItems.classList.add('-ml-[100vw]')
-    mobileSearchMenu.classList.remove('-mr-[100vw]')
-  };
+    const openMobileSearchMenu = () => {
+        const navbarItems = document.getElementById("navbar-items");
+        const mobileSearchMenu = document.getElementById("mobile-search-menu");
+        navbarItems.classList.add('-ml-[100vw]')
+        mobileSearchMenu.classList.remove('-mr-[100vw]')
+    };
 
-  const closeMobileSearchMenu = () => {
-    const navbarItems = document.getElementById("navbar-items");
-    const mobileSearchMenu = document.getElementById("mobile-search-menu");
-    navbarItems.classList.remove('-ml-[100vw]')
-    mobileSearchMenu.classList.add('-mr-[100vw]')
-  };
+    const closeMobileSearchMenu = () => {
+        const navbarItems = document.getElementById("navbar-items");
+        const mobileSearchMenu = document.getElementById("mobile-search-menu");
+        navbarItems.classList.remove('-ml-[100vw]')
+        mobileSearchMenu.classList.add('-mr-[100vw]')
+    };
 
-  return (
-    <>
-      <div className="bg-gray-200 h-12 md:h-16 2md:h-20 flex">
-        {/* <div className="w-full h-full flex justify-between max-sm:justify-start items-center">
-          <div className="md:hidden bg-black w-10 h-10 mr-2 sm:mr-4 aspect-square"></div>
-          <div className="flex justify-start items-center bg-yellow-400 h-full w-full gap-5 2md:gap-8 lg:gap-12 max-md:w-auto">
-            <div className="w-40 max-md:w-48 2md:w-48 lg:w-64 bg-slate-600">
-              Khapsu
+    return (
+        <>
+            {/* <div className="flex justify-between items-center px-7 w-full h-20 bg-black text-white">
+        <div className="relative flex min-w-[700px]">
+          <div className={`${blackOpsOne.className} text-7xl w-48 font-extrabold mr-32`}>
+            Khapsu
+          </div>
+          <ul className="flex justify-between items-center gap-5 bg-black">
+            <li className="text-lg text-white">Women's Fashion</li>
+            <li className="text-lg text-white">Men's Fashion</li>
+            <li className="text-lg text-white">Wall Art</li>
+          </ul>
+        </div>
+        <div className="flex items-center justify-end w-full pl-20">
+        <div
+            className="relative bg-transparent grow"
+            data-te-input-wrapper-init
+          >
+            <input
+              type="search"
+              className="peer text-xl px-5 font-normal block h-10 w-full rounded-full border-solid border bg-transparent leading-[2.2] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-black data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-non border-blue-500 shadow-search-hover-shadow placeholder-shown:border-white placeholder-shown:shadow-none focus:border-blue-500 focus:shadow-search-hover-shadow"
+              placeholder=""
+              id="exampleSearch2"
+            />
+            <label
+              htmlFor="exampleSearch2"
+              className="pointer-events-none inline-block absolute left-6 top-0 mb-0 origin-[0_0] truncate pt-[0.4rem] text-lg peer-focus:font-medium transition-all duration-200 ease-out peer-focus:-translate-y-[1.2rem] peer-focus:scale-[0.8] peer-focus:text-white peer-focus:bg-black peer-placeholder-shown:bg-transparent peer-placeholder-shown:-translate-y-[0rem] peer-placeholder-shown:scale-[1] peer-placeholder-shown:text-gray-400 -translate-y-[1.2rem] scale-[0.8] text-white bg-black"
+            >
+              <p className="">Search</p>
+            </label>
+          </div>
+          <div className="flex justify-end items-center gap-6 w-36 flex-none">
+            <div className="border hover:bg-green-400 px-4 py-1.5 rounded-lg font-serif text-lg flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-user-plus"
+              >
+                <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="8.5" cy="7" r="4"></circle>
+                <line x1="20" y1="8" x2="20" y2="14"></line>
+                <line x1="23" y1="11" x2="17" y2="11"></line>
+              </svg>
+              <h1 className="pl-2">Sign In</h1>
             </div>
-            <div className="bg-green-400 2md:pr-6 max-md:hidden">
-              <ul className="flex gap-2.5 2md:gap-4">
-                <li className="bg-red-100 whitespace-nowrap overflow-hidden">
-                  Women's Fashion
-                </li>
-                <li className="bg-red-100 whitespace-nowrap overflow-hidden">
-                  Men's Fashion
-                </li>
-                <li className="bg-red-100 whitespace-nowrap overflow-hidden">
-                  Wall Art
-                </li>
-              </ul>
-            </div>
           </div>
-          <div className="flex justify-end items-center bg-red-600 h-full w-full max-md:grow max-sm:hidden">
-            <div className="bg-green-400 mx-4 2md:mx-6 lg:mx-8 h-10 w-full"></div>
-            <div className="w-32 bg-yellow-400 aspect-[7/4] max-md:hidden"></div>
-            <div className="w-8 h-8 2md:w-9 2md:h-9 bg-black aspect-square max-md:hidden m-2"></div>
-          </div>
-          <div className="flex justify-end items-center w-full sm:hidden">
-            <div className="absulate right-0 w-8 h-8 bg-black"></div>
-          </div>
-        </div> */}
-
+        </div>
+      </div> */}
+            {/* <div className="bg-gray-200 h-12 md:h-16 2md:h-20 flex">
         <div id="navbar-items" className="w-full h-full flex justify-between max-sm:justify-start items-center px-1 sm:px-3 transition-all duration-500 ease-in-out">
-          <div className="md:hidden bg-black w-10 h-10 mr-2 sm:mr-4 aspect-square"></div>
+          <div className="md:hidden bg-gray-400 w-10 h-10 mr-2 sm:mr-4 aspect-square">
+            <button className="w-full h-full">M</button>
+          </div>
           <div className="flex justify-start items-center bg-yellow-400 h-full w-full gap-5 2md:gap-8 lg:gap-12 max-md:w-auto">
             <div className="w-40 max-md:w-48 2md:w-48 lg:w-64 bg-slate-600">
               Khapsu
@@ -86,7 +111,7 @@ export default function Navbar() {
           </div>
           <div className="flex justify-end items-center w-full sm:hidden">
             <div className="absulate right-0 w-8 h-8 bg-gray-300">
-            <button className="w-full h-full" onClick={openMobileSearchMenu}>M</button>
+              <button className="w-full h-full" onClick={openMobileSearchMenu}>M</button>
             </div>
           </div>
         </div>
@@ -98,7 +123,65 @@ export default function Navbar() {
           <div className="flex justify-center items-center bg-black w-full grow h-10">
           </div>
         </div>
-      </div>
-    </>
-  );
+      </div> */}
+
+            <div className="bg-gray-200 h-12 md:h-16 2md:h-20 flex">
+                <div id="navbar-items" className="w-full h-full flex justify-between max-sm:justify-start items-center px-1 sm:px-3 transition-all duration-500 ease-in-out">
+                    <div className="md:hidden bg-gray-400 w-10 h-10 mr-2 sm:mr-4 aspect-square">
+                        <button className="w-full h-full">M</button>
+                    </div>
+                    <div className="flex justify-start items-center bg-yellow-400 h-full w-full gap-5 2md:gap-8 lg:gap-12 max-md:w-auto">
+                        <div className="w-40 max-md:w-48 2md:w-48 lg:w-64 bg-slate-600">
+                            Khapsu
+                        </div>
+                        <div className="bg-green-400 2md:pr-6 max-md:hidden">
+                            <ul className="flex gap-2.5 2md:gap-4">
+                                <li className="bg-red-100 flex flex-col items-center overflow-hidden">
+                                    <div className="whitespace-nowrap overflow-hidden">
+                                        Women's Fashion
+                                    </div>
+                                    {/* <div className="fixed top-20 w-[700px] h-64 bg-black"></div> */}
+                                </li>
+                                <li className="bg-red-100 flex flex-col items-center overflow-hidden">
+                                    <div className="whitespace-nowrap overflow-hidden">
+                                    Men's Fashion
+                                    </div>
+                                    <div className="fixed top-[85px] w-[700px] h-64 bg-black"></div>
+                                </li>
+                                <li className="bg-red-100 flex flex-col items-center overflow-hidden">
+                                    <div className="whitespace-nowrap overflow-hidden">
+                                    Wall Art
+                                    </div>
+                                    {/* <div className="fixed top-20 w-[700px] h-64 bg-black"></div> */}
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="flex justify-end items-center bg-red-600 h-full w-full max-md:grow max-sm:hidden">
+                        <div className="bg-green-400 mx-4 2md:mx-6 lg:mx-8 h-10 w-full"></div>
+                        <div className="w-32 bg-yellow-400 aspect-[7/4] max-md:hidden"></div>
+                        <div className="w-8 h-8 2md:w-9 2md:h-9 bg-black aspect-square max-md:hidden m-2"></div>
+                    </div>
+                    <div className="flex justify-end items-center w-full sm:hidden">
+                        <div className="absulate right-0 w-8 h-8 bg-gray-300">
+                            <button className="w-full h-full" onClick={openMobileSearchMenu}>M</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="mobile-search-menu" className="-mr-[100vw] flex-none w-full h-full bg-blue-600 flex justify-between items-center gap-3 px-1 sm:px-3 sm:hidden transition-all duration-500 ease-in-out">
+                    <div className="flex justify-center items-center max-w-10 h-10 aspect-square bg-slate-400 flex-none">
+                        <button className="w-full h-full" onClick={closeMobileSearchMenu}>M</button>
+                    </div>
+                    <div className="flex justify-center items-center bg-black w-full grow h-10">
+                    </div>
+                </div>
+            </div>
+            {/* <div class="flex flex-col items-center h-screen">
+                <div class="w-20 h-20 bg-blue-500"></div>
+                <div class="w-96 h-40 bg-red-500"></div>
+            </div> */}
+
+        </>
+    );
 }
