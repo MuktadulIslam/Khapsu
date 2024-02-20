@@ -15,8 +15,9 @@ module.exports = {
       'xl': '1400px',
       '2xl': '1600px',
       'maxW': '1650px',
-      'max-md': {'max': '800px'},
-      'max-sm': {'max': '560px'},
+      'max-2md': {'max': '999px'},
+      'max-md': {'max': '799px'},
+      'max-sm': {'max': '559px'},
       'minmax-lg': {'min': '1000px', 'max': '1200px'},
     },
     extend: {
