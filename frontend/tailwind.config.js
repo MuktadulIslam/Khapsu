@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config}*/
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -15,10 +15,10 @@ module.exports = {
       'xl': '1400px',
       '2xl': '1600px',
       'maxW': '1650px',
-      'max-2md': {'max': '999px'},
-      'max-md': {'max': '799px'},
-      'max-sm': {'max': '559px'},
-      'minmax-lg': {'min': '1000px', 'max': '1200px'},
+      'max-2md': { 'max': '999px' },
+      'max-md': { 'max': '799px' },
+      'max-sm': { 'max': '559px' },
+      'minmax-lg': { 'min': '1000px', 'max': '1200px' },
     },
     extend: {
       backgroundImage: {
@@ -27,15 +27,13 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       boxShadow: {
-        'item-shadow': "0px 0px 10px 0px rgba(190,193,194,0.75);",
-        'item-hover-shadow': ' 0px 0px 15px 3px rgba(123,136,140,1)',
-        'search-hover-shadow': '0px 0px 1px 1px rgba(41,87,255,1) inset; 0px 0px 1px 1px rgba(41,87,255,1)',
+        'item-shadow': "0px 0px 10px 0px rgba(190,193,194,0.75)",
+        'item-hover-shadow': '0px 0px 15px 3px rgba(123,136,140,1)',
+        'search-hover-shadow': '0px 0px 1px 1px rgba(41,87,255,1) inset, 0px 0px 1px 1px rgba(41,87,255,1)',
       },
     },
-    theme: {
-      fontFamily: {
-        'popup-product-name': ['Helvetica', 'Arial', 'sans-serif']
-      }
+    fontFamily: {
+      'popup-product-name': ['Helvetica', 'Arial', 'sans-serif']
     }
   },
   plugins: ['prettier-plugin-tailwindcss'],

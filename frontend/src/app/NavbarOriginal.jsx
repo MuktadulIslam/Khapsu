@@ -1,6 +1,7 @@
 "use client"
 import { Black_Ops_One } from "next/font/google";
 import { useState } from "react";
+import React from "react";
 const blackOpsOne = Black_Ops_One({
     weight: ["400"],
     style: ["normal"],
@@ -138,7 +139,7 @@ export default function Navbar() {
                             <ul className="flex gap-2.5 2md:gap-6 h-full">
                                 <li className="bg-red-100 h-full flex flex-col justify-center items-center overflow-hidden group">
                                     <div className="whitespace-nowrap overflow-hidden">
-                                        Women's Fashion
+                                        Womens Fashion
                                     </div>
                                     <div className="fixed group-hover:w-1/2 group-hover:p-2 group-hover:md:top-[68px] group-hover:2md:top-[85px] p-0 top-8 2md:top-10 w-0 max-w-[700px] bg-black grid grid-cols-2 gap-2 transition-all duration-700 ease-in-out">
                                         <div className="bg-gray-300 w-full aspect-[5/2]"></div>
@@ -149,7 +150,7 @@ export default function Navbar() {
                                 </li>
                                 <li className="bg-red-100 h-full flex flex-col justify-center items-center overflow-hidden group">
                                     <div className="whitespace-nowrap overflow-hidden">
-                                        Men's Fashion
+                                        Mens Fashion
                                     </div>
                                     <div className="fixed group-hover:w-1/2 group-hover:p-2 group-hover:md:top-[68px] group-hover:2md:top-[85px] p-0 top-8 2md:top-10 w-0 max-w-[700px] bg-black grid grid-cols-2 gap-2 transition-all duration-700 ease-in-out">
                                         <div className="bg-gray-300 w-full aspect-[5/2]"></div>

@@ -1,6 +1,6 @@
 "use client"
 import { Black_Ops_One } from "next/font/google";
-import { useState } from "react";
+import React, { useState } from "react";
 const blackOpsOne = Black_Ops_One({
     weight: ["400"],
     style: ["normal"],
@@ -25,6 +25,9 @@ export default function Navbar() {
         navbarItems.classList.remove('-ml-[100vw]')
         mobileSearchMenu.classList.add('-mr-[100vw]')
     };
+    const openMenu = () => {
+        
+    }
 
     return (
         <>
@@ -127,18 +130,18 @@ export default function Navbar() {
 
             <div className="bg-gray-200 h-12 md:h-16 2md:h-20 flex">
                 <div id="navbar-items" className="w-full h-full flex justify-between max-sm:justify-start items-center px-1 sm:px-3 transition-all duration-500 ease-in-out">
-                    <div className="md:hidden bg-gray-400 w-10 h-10 mr-2 sm:mr-4 aspect-square">
-                        <button className="w-full h-full">M</button>
+                    <div className="md:hidden bg-gray-600 w-10 h-10 mr-2 sm:mr-4 aspect-square">
+                        <button className="w-full h-full" onClick={openMenu}>m</button>
                     </div>
                     <div className="flex justify-start items-center bg-yellow-400 h-full w-full gap-5 2md:gap-8 lg:gap-12 max-md:w-auto">
                         <div className="w-40 max-md:w-48 2md:w-48 lg:w-64 bg-slate-600">
                             Khapsu
                         </div>
-                        <div className="bg-green-400 2md:pr-6 max-md:hidden h-full">
-                            <ul className="flex gap-2.5 2md:gap-6 h-full">
+                        <div className="bg-green-400 2md:pr-6 h-full">
+                            <ul className="flex gap-2.5 max-md:hidden 2md:gap-6 h-full">
                                 <li className="bg-red-100 h-full flex flex-col justify-center items-center overflow-hidden group">
                                     <div className="whitespace-nowrap overflow-hidden">
-                                        Women's Fashion
+                                        Womens Fashion
                                     </div>
                                     <div className="fixed group-hover:w-1/2 group-hover:p-2 group-hover:md:top-[68px] group-hover:2md:top-[85px] p-0 top-8 2md:top-10 w-0 max-w-[700px] bg-black grid grid-cols-2 gap-2 transition-all duration-700 ease-in-out">
                                         <div className="bg-gray-300 w-full aspect-[5/2]"></div>
@@ -149,7 +152,7 @@ export default function Navbar() {
                                 </li>
                                 <li className="bg-red-100 h-full flex flex-col justify-center items-center overflow-hidden group">
                                     <div className="whitespace-nowrap overflow-hidden">
-                                        Men's Fashion
+                                        Mens Fashion
                                     </div>
                                     <div className="fixed group-hover:w-1/2 group-hover:p-2 group-hover:md:top-[68px] group-hover:2md:top-[85px] p-0 top-8 2md:top-10 w-0 max-w-[700px] bg-black grid grid-cols-2 gap-2 transition-all duration-700 ease-in-out">
                                         <div className="bg-gray-300 w-full aspect-[5/2]"></div>
@@ -193,12 +196,6 @@ export default function Navbar() {
                     </div>
                 </div>
             </div>
-
-            {/* <div class="parent border-dashed border-gray-400 p-2 group h-[700px] w-[700px]">
-                <div class="child border-solid border-brown-400 m-4 p-2 transition-all duration-500 group-hover:bg-green-200 group-hover:transform group-hover:scale-150 group-hover:rotate-3 group-hover:border-5 group-hover:border-inset w-32 h-32">
-
-                </div>
-            </div> */}
 
 
             {/* <div className="w-[800px] h-[800px] bg-black group">

@@ -1,6 +1,7 @@
 "use client"
-import { createContext, useRef, useState } from 'react';
-import ProductGrid from "@/components/products/ProductGrid";
+import React, { createContext, useRef, useState } from 'react';
+// import ProductGrid from "@/components/products/ProductGrid";
+import ProductGrid from "../components/products/ProductGrid";
 import data from "../../data/productdata.json";
 
 export default function MainPage() {

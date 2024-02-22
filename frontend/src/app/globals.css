@@ -39,7 +39,7 @@
   content: "";
   position: absolute;
   background-color: rgb(135, 138, 138);
-  width: 1px; /* Set the width to 2px */
+  width: 1px;
 }
 
 .custom-cross::before {

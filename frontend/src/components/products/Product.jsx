@@ -2,6 +2,7 @@
 import Image from "next/image";
 import LoveSVG from "./LoveSVG";
 import { quickview } from "./ProductDetails";
+import React from "react";
 
 export default function Product({ productdata}) {
     const quickview = () => {

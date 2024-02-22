@@ -1,5 +1,5 @@
 "use client";
-import { useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 import Image from "next/image";
 import Product from "./product";
 import data from "../../data/productdata.json";
@@ -57,7 +57,7 @@ const product = {
   ],
 };
 
-function productGrid() {
+function ProductGrid() {
   const [open, setOpen] = useState(false);
   const [selectedColor, setSelectedColor] = useState(product.colors[0]);
   const [selectedSize, setSelectedSize] = useState(product.sizes[2]);
@@ -498,4 +498,4 @@ function productGrid() {
   );
 }
 
-export default productGrid;
+export default ProductGrid;
