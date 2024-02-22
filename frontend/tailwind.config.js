@@ -30,6 +30,7 @@ module.exports = {
         'item-shadow': "0px 0px 10px 0px rgba(190,193,194,0.75)",
         'item-hover-shadow': '0px 0px 15px 3px rgba(123,136,140,1)',
         'search-hover-shadow': '0px 0px 1px 1px rgba(41,87,255,1) inset, 0px 0px 1px 1px rgba(41,87,255,1)',
+        'menu-item-image-shadow': '0px 5px 10px 0px rgba(0,0,0,0.75)'
       },
     },
     fontFamily: {

@@ -1,6 +1,9 @@
 "use client"
 import { Black_Ops_One } from "next/font/google";
-import React, { useState } from "react";
+import { Fragment, useState } from 'react'
+import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
+import { Bars3Icon, MagnifyingGlassIcon, ShoppingBagIcon, XMarkIcon } from '@heroicons/react/24/outline'
+
 const blackOpsOne = Black_Ops_One({
     weight: ["400"],
     style: ["normal"],
@@ -11,23 +14,108 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
 }
 
+
+const navigation = {
+    categories: [
+        {
+            id: 'women',
+            name: "Women's",
+            featured: [
+                {
+                    name: 'New Arrivals',
+                    short_description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+                    href: '#',
+                    imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
+                    imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
+                },
+                {
+                    name: 'Basic Tees',
+                    short_description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+                    href: '#',
+                    imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
+                    imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
+                },
+                {
+                    name: 'New Arrivals',
+                    short_description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+                    href: '#',
+                    imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
+                    imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
+                },
+                {
+                    name: 'Basic Tees',
+                    short_description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+                    href: '#',
+                    imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
+                    imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
+                },
+            ]
+        },
+        {
+            id: 'men',
+            name: "Men's",
+            featured: [
+                {
+                    name: 'New Arrivals',
+                    short_description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+                    href: '#',
+                    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg',
+                    imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
+                },
+                {
+                    name: 'Artwork Tees',
+                    short_description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+                    href: '#',
+                    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-06.jpg',
+                    imageAlt:
+                        'Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.',
+                },
+            ]
+        },
+        {
+            id: 'wall-art',
+            name: 'Wall Art',
+            featured: [
+                {
+                    name: 'New Arrivals',
+                    short_description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.',
+                    href: '#',
+                    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg',
+                    imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
+                },
+                {
+                    name: 'Artwork Tees',
+                    short_description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+                    href: '#',
+                    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-06.jpg',
+                    imageAlt:
+                        'Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.',
+                },
+            ]
+        },
+    ]
+}
+
+
 export default function Navbar() {
     const openMobileSearchMenu = () => {
         const navbarItems = document.getElementById("navbar-items");
         const mobileSearchMenu = document.getElementById("mobile-search-menu");
-        navbarItems.classList.add('-ml-[100vw]')
-        mobileSearchMenu.classList.remove('-mr-[100vw]')
+        navbarItems.classList.remove('w-full', 'px-1','sm:px-3')
+        navbarItems.classList.add('w-0')
+        mobileSearchMenu.classList.remove('w-0')
+        mobileSearchMenu.classList.add('w-full', 'px-1','sm:px-3','*:h-10')
     };
 
     const closeMobileSearchMenu = () => {
         const navbarItems = document.getElementById("navbar-items");
         const mobileSearchMenu = document.getElementById("mobile-search-menu");
-        navbarItems.classList.remove('-ml-[100vw]')
-        mobileSearchMenu.classList.add('-mr-[100vw]')
+        navbarItems.classList.remove('w-0')
+        navbarItems.classList.add('w-full', 'px-1','sm:px-3')
+        mobileSearchMenu.classList.remove('w-full', 'px-1','sm:px-3','*:h-10')
+        mobileSearchMenu.classList.add('w-0')
     };
-    const openMenu = () => {
-        
-    }
+    const [openMenu, setOpenMenu] = useState(false)
 
     return (
         <>
@@ -129,18 +217,18 @@ export default function Navbar() {
       </div> */}
 
             <div className="bg-gray-200 h-12 md:h-16 2md:h-20 flex">
-                <div id="navbar-items" className="w-full h-full flex justify-between max-sm:justify-start items-center px-1 sm:px-3 transition-all duration-500 ease-in-out">
+                <div id="navbar-items" className="px-1 sm:px-3 w-full h-full flex justify-between max-sm:justify-start items-center transition-all duration-500 ease-in-out">
                     <div className="md:hidden bg-gray-600 w-10 h-10 mr-2 sm:mr-4 aspect-square">
-                        <button className="w-full h-full" onClick={openMenu}>m</button>
+                        <button className="w-full h-full" onClick={()=>setOpenMenu(true)}>m</button>
                     </div>
                     <div className="flex justify-start items-center bg-yellow-400 h-full w-full gap-5 2md:gap-8 lg:gap-12 max-md:w-auto">
                         <div className="w-40 max-md:w-48 2md:w-48 lg:w-64 bg-slate-600">
                             Khapsu
                         </div>
-                        <div className="bg-green-400 2md:pr-6 h-full">
-                            <ul className="flex gap-2.5 max-md:hidden 2md:gap-6 h-full">
-                                <li className="bg-red-100 h-full flex flex-col justify-center items-center overflow-hidden group">
-                                    <div className="whitespace-nowrap overflow-hidden">
+                        <div className="bg-green-400 2md:pr-6 h-full max-md:hidden">
+                            <ul className="flex gap-2.5 2md:gap-6 h-full">
+                                <li className="bg-red-100 h-full max-2md:w-16 flex flex-col justify-center items-center overflow-hidden group">
+                                    <div className="2md:whitespace-nowrap overflow-hidden">
                                         Womens Fashion
                                     </div>
                                     <div className="fixed group-hover:w-1/2 group-hover:p-2 group-hover:md:top-[68px] group-hover:2md:top-[85px] p-0 top-8 2md:top-10 w-0 max-w-[700px] bg-black grid grid-cols-2 gap-2 transition-all duration-700 ease-in-out">
@@ -150,8 +238,8 @@ export default function Navbar() {
                                         <div className="bg-gray-700 w-full aspect-[5/2]"></div>
                                     </div>
                                 </li>
-                                <li className="bg-red-100 h-full flex flex-col justify-center items-center overflow-hidden group">
-                                    <div className="whitespace-nowrap overflow-hidden">
+                                <li className="bg-red-100 h-full max-2md:w-16 flex flex-col justify-center items-center overflow-hidden group">
+                                    <div className="2md:whitespace-nowrap overflow-hidden">
                                         Mens Fashion
                                     </div>
                                     <div className="fixed group-hover:w-1/2 group-hover:p-2 group-hover:md:top-[68px] group-hover:2md:top-[85px] p-0 top-8 2md:top-10 w-0 max-w-[700px] bg-black grid grid-cols-2 gap-2 transition-all duration-700 ease-in-out">
@@ -161,8 +249,8 @@ export default function Navbar() {
                                         <div className="bg-gray-700 w-full aspect-[5/2]"></div>
                                     </div>
                                 </li>
-                                <li className="bg-red-100 h-full flex flex-col justify-center items-center overflow-hidden group">
-                                    <div className="whitespace-nowrap overflow-hidden">
+                                <li className="bg-red-100 h-full max-2md:w-16 flex flex-col justify-center items-center overflow-hidden group">
+                                    <div className="2md:whitespace-nowrap overflow-hidden">
                                         Wall Art
                                     </div>
                                     <div className="fixed group-hover:w-1/2 group-hover:p-2 group-hover:md:top-[68px] group-hover:2md:top-[85px] p-0 top-8 2md:top-10 w-0 max-w-[700px] bg-black grid grid-cols-2 gap-2 transition-all duration-700 ease-in-out">
@@ -188,8 +276,8 @@ export default function Navbar() {
                     </div>
                 </div>
 
-                <div id="mobile-search-menu" className="-mr-[100vw] flex-none w-full h-full bg-blue-600 flex justify-between items-center gap-3 px-1 sm:px-3 sm:hidden transition-all duration-500 ease-in-out">
-                    <div className="flex justify-center items-center max-w-10 h-10 aspect-square bg-slate-400 flex-none">
+                <div id="mobile-search-menu" className="w-0 flex-none h-full bg-blue-600 flex justify-between items-center gap-3 sm:hidden transition-all duration-500 ease-in-out">
+                    <div className="flex justify-center items-center h-0 aspect-square bg-slate-400 flex-none overflow-hidden">
                         <button className="w-full h-full" onClick={closeMobileSearchMenu}>M</button>
                     </div>
                     <div className="flex justify-center items-center bg-black w-full grow h-10">
@@ -198,20 +286,81 @@ export default function Navbar() {
             </div>
 
 
-            {/* <div className="w-[800px] h-[800px] bg-black group">
-                <div className="w-[400px] h-[400px] bg-green-600 group-hover:bg-red-600"></div>
+            {/* Mobile menu */}
+            <Transition.Root show={openMenu} as={Fragment}>
+                <Dialog as="div" className="relative z-40 lg:hidden" onClose={setOpenMenu}>
+                    <div className="fixed inset-0 z-40 flex">
+                        <Transition.Child
+                            as={Fragment}
+                            enter="transition ease-in-out duration-300 transform"
+                            enterFrom="-translate-x-full"
+                            enterTo="translate-x-0"
+                            leave="transition ease-in-out duration-300 transform"
+                            leaveFrom="translate-x-0"
+                            leaveTo="-translate-x-full"
+                        >
+                            <Dialog.Panel className="relative flex w-full max-w-xs flex-col overflow-y-auto bg-white pb-12 shadow-xl">
+                                <div className="flex px-4 pt-3">
+                                    <button
+                                        type="button"
+                                        className="relative -m-2 inline-flex items-center justify-center rounded-md p-2 text-gray-400"
+                                        onClick={() => setOpenMenu(false)}
+                                    >
+                                        <span className="absolute -inset-0.5" />
+                                        <span className="sr-only">Close menu</span>
+                                        <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                                    </button>
+                                </div>
 
-            </div>
-            <div className="w-[800px] h-[800px] bg-gray-400 group">
-                <div className="w-[400px] h-[400px] bg-red-600 group-hover:bg-green-600"></div>
-
-            </div> */}
-
-            {/* <div class="flex flex-col items-center h-screen">
-                <div class="w-20 h-20 bg-blue-500"></div>
-                <div class="w-96 h-40 bg-red-500"></div>
-            </div> */}
-
+                                {/* Links */}
+                                <Tab.Group as="div" className="mt-2">
+                                    <div className="border-b border-gray-200">
+                                        <Tab.List className="-mb-px flex space-x-8 px-4">
+                                            {navigation.categories.map((category) => (
+                                                <Tab
+                                                    key={category.name}
+                                                    className={({ selected }) =>
+                                                        classNames(
+                                                            selected ? 'border-indigo-600 text-indigo-600' : 'border-transparent text-gray-900',
+                                                            'flex-1 whitespace-nowrap border-b-2 px-1 py-4 text-base font-medium '
+                                                        )
+                                                    }
+                                                >
+                                                    {category.name}
+                                                </Tab>
+                                            ))}
+                                        </Tab.List>
+                                    </div>
+                                    <Tab.Panels as={Fragment}>
+                                        {navigation.categories.map((category) => (
+                                            <Tab.Panel key={category.name} className="space-y-10 px-4 pb-8 pt-10">
+                                                <div className="grid grid-cols-2 gap-x-4">
+                                                    {category.featured.map((item) => (
+                                                        <a href={item.href} className="group relative text-sm pb-6">
+                                                            <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75 shadow-item-shadow">
+                                                                <img src={item.imageSrc} alt={item.imageAlt} className="object-center aspect-square object-cover" />
+                                                            </div>
+                                                            <span className="absolute inset-0 z-10" aria-hidden="true" />
+                                                            <div className='mt-2 block font-medium text-gray-900'>
+                                                                <h1 className="text-base font-semibold">
+                                                                {item.name}
+                                                                </h1>
+                                                                <p className="text-sm">
+                                                                    {item.short_description}
+                                                                </p>
+                                                            </div>
+                                                        </a>
+                                                    ))}
+                                                </div>
+                                            </Tab.Panel>
+                                        ))}
+                                    </Tab.Panels>
+                                </Tab.Group>
+                            </Dialog.Panel>
+                        </Transition.Child>
+                    </div>
+                </Dialog>
+            </Transition.Root>
         </>
     );
 }

@@ -3,6 +3,7 @@ import "./globals.css";
 // import Footer from "@/components/top_components/Footer";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Demo from "./Demo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.className} top-0 max-w-screen-maxW m-auto box-border bg-white`}>
         <Navbar/>
-        {/* <Dmeo/> */}
+        {/* <Demo/> */}
         {children}
         <Footer/>
       </body>
