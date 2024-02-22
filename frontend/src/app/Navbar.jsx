@@ -287,7 +287,7 @@ export default function Navbar() {
 
 
             {/* Mobile menu */}
-            <Transition.Root show={openMenu} as={Fragment}>
+            {/* <Transition.Root show={openMenu} as={Fragment}>
                 <Dialog as="div" className="relative z-40 lg:hidden" onClose={setOpenMenu}>
                     <div className="fixed inset-0 z-40 flex">
                         <Transition.Child
@@ -312,7 +312,6 @@ export default function Navbar() {
                                     </button>
                                 </div>
 
-                                {/* Links */}
                                 <Tab.Group as="div" className="mt-2">
                                     <div className="border-b border-gray-200">
                                         <Tab.List className="-mb-px flex space-x-8 px-4">
@@ -360,7 +359,7 @@ export default function Navbar() {
                         </Transition.Child>
                     </div>
                 </Dialog>
-            </Transition.Root>
+            </Transition.Root> */}
         </>
     );
 }
