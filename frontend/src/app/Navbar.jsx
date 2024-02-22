@@ -216,7 +216,7 @@ export default function Navbar() {
         </div>
       </div> */}
 
-            <div className="bg-gray-200 h-12 md:h-16 2md:h-20 flex">
+            <div className="bg-gray-200 h-12 md:h-16 2md:h-20 flex z-40">
                 <div id="navbar-items" className="px-1 sm:px-3 w-full h-full flex justify-between max-sm:justify-start items-center transition-all duration-500 ease-in-out">
                     <div className="md:hidden bg-gray-600 w-10 h-10 mr-2 sm:mr-4 aspect-square">
                         <button className="w-full h-full" onClick={()=>setOpenMenu(true)}>m</button>
@@ -287,7 +287,7 @@ export default function Navbar() {
 
 
             {/* Mobile menu */}
-            {/* <Transition.Root show={openMenu} as={Fragment}>
+            <Transition.Root show={openMenu} as={Fragment}>
                 <Dialog as="div" className="relative z-40 lg:hidden" onClose={setOpenMenu}>
                     <div className="fixed inset-0 z-40 flex">
                         <Transition.Child
@@ -334,8 +334,8 @@ export default function Navbar() {
                                         {navigation.categories.map((category) => (
                                             <Tab.Panel key={category.name} className="space-y-10 px-4 pb-8 pt-10">
                                                 <div className="grid grid-cols-2 gap-x-4">
-                                                    {category.featured.map((item) => (
-                                                        <a href={item.href} className="group relative text-sm pb-6">
+                                                    {category.featured.map((item, index) => (
+                                                        <a href={item.href} key={index} className="group relative text-sm pb-6">
                                                             <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75 shadow-item-shadow">
                                                                 <img src={item.imageSrc} alt={item.imageAlt} className="object-center aspect-square object-cover" />
                                                             </div>
@@ -359,7 +359,7 @@ export default function Navbar() {
                         </Transition.Child>
                     </div>
                 </Dialog>
-            </Transition.Root> */}
+            </Transition.Root>
         </>
     );
 }
