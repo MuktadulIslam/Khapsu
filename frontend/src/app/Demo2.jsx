@@ -134,7 +134,7 @@ export default function Navbar() {
                         </button>
                     </div>
                     <div className="flex justify-start items-center h-full w-full  max-md:w-auto">
-                        <div className={`${blackOpsOne.className} text-4xl max-sm:text-5xl 2md:text-6xl lg:text-7xl font-extrabold mr-3 2md:mr-7`}>
+                        <div className={`${blackOpsOne.className} text-4xl max-sm:text-5xl 2md:text-6xl font-extrabold mr-3 2md:mr-7`}>
                             Khapsu
                         </div>
                         <div className="2md:pr-6 h-full max-md:hidden ">
@@ -159,13 +159,13 @@ export default function Navbar() {
                         <div className="relative bg-transparent mx-2 2md:mx-0 lg:mx-6 h-10 w-full text-white" data-te-input-wrapper-init>
                             <input
                                 type="search"
-                                className="peer text-base 2md:text-lg px-5 font-normal block h-10 w-full rounded-full border-solid border bg-transparent leading-[2.2] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-black data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-non border-blue-500 shadow-search-hover-shadow placeholder-shown:border-white placeholder-shown:shadow-none focus:border-blue-500 focus:shadow-search-hover-shadow"
+                                className="peer text-xl px-5 font-normal block h-10 w-full rounded-full border-solid border bg-transparent leading-[2.2] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-black data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-non border-blue-500 shadow-search-hover-shadow placeholder-shown:border-white placeholder-shown:shadow-none focus:border-blue-500 focus:shadow-search-hover-shadow"
                                 placeholder=""
                                 id="exampleSearch2"
                             />
                             <label
                                 htmlFor="exampleSearch2"
-                                className="pointer-events-none inline-block absolute left-6 top-0 mb-0 origin-[0_0] truncate pt-[0.4rem] text-base 2md:text-lg peer-focus:font-medium transition-all duration-200 ease-out peer-focus:-translate-y-[1.2rem] peer-focus:scale-[0.8] peer-focus:text-gray-300 peer-focus:bg-black peer-placeholder-shown:bg-transparent peer-placeholder-shown:-translate-y-[0rem] peer-placeholder-shown:scale-[1] peer-placeholder-shown:text-gray-400 -translate-y-[1.2rem] scale-[0.8] text-gray-300 bg-black"
+                                className="pointer-events-none inline-block absolute left-6 top-0 mb-0 origin-[0_0] truncate pt-[0.4rem] text-lg peer-focus:font-medium transition-all duration-200 ease-out peer-focus:-translate-y-[1.2rem] peer-focus:scale-[0.8] peer-focus:text-gray-300 peer-focus:bg-black peer-placeholder-shown:bg-transparent peer-placeholder-shown:-translate-y-[0rem] peer-placeholder-shown:scale-[1] peer-placeholder-shown:text-gray-400 -translate-y-[1.2rem] scale-[0.8] text-gray-300 bg-black"
                             >
                                 <p className="">Search</p>
                             </label>
@@ -178,12 +178,12 @@ export default function Navbar() {
                         {/* <div className="w-9 h-9 aspect-square lg:w-11 lg:h-11 max-md:hidden mr-2">
                             <Image className="rounded-full" src={'/profile.jpg'} width={50} height={50} />
                         </div> */}
-                        <div className="w-6 h-6 aspect-square 2md:w-7 2md:h-7 2xl:w-8 2xl:h-8 max-md:hidden m-2">
+                        <div className="w-7 h-7 aspect-square 2md:w-8 2md:h-8 2xl:w-9 2xl:h-9 max-md:hidden m-2">
                             <a href="#" className="group flex items-center">
                                 <svg className="h-full w-full flex-shrink-0 text-white hover:text-gray-300" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
                                 </svg>
-                                <span className="absolute text-lg font-medium rounded-full bg-gray-200 -translate-y-4 translate-x-6 w-6 h-6 text-black text-center flex items-center justify-center">9</span>
+                                <span className="absolute text-lg font-medium rounded-full bg-gray-200 -translate-y-4 translate-x-6 w-6 h-6 text-black text-center">9</span>
                             </a>
                         </div>
                     </div>
@@ -219,37 +219,6 @@ export default function Navbar() {
             </div>
 
 
-            {/* Mobile Bottom Menu */}
-            <div className="fixed bottom-0 w-full h-16 bg-black z-40 grid grid-cols-4 md:hidden gap-0 outline-none text-white">
-                <button className="flex flex-col justify-center items-center w-full h-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7 sm:h-8 sm:w-8">
-                        <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
-                        <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
-                    </svg>
-                    <p className="text-xs">Home</p>
-                </button>
-                <button className="flex flex-col justify-center items-center w-full h-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7 sm:h-8 sm:w-8">
-                        <path fillRule="evenodd" d="M3 6a3 3 0 0 1 3-3h2.25a3 3 0 0 1 3 3v2.25a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6Zm9.75 0a3 3 0 0 1 3-3H18a3 3 0 0 1 3 3v2.25a3 3 0 0 1-3 3h-2.25a3 3 0 0 1-3-3V6ZM3 15.75a3 3 0 0 1 3-3h2.25a3 3 0 0 1 3 3V18a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-2.25Zm9.75 0a3 3 0 0 1 3-3H18a3 3 0 0 1 3 3V18a3 3 0 0 1-3 3h-2.25a3 3 0 0 1-3-3v-2.25Z" clipRule="evenodd" />
-                    </svg>
-                    <p className="text-xs">Categories</p>
-                </button>
-                <button className="flex flex-col justify-center items-center w-full h-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7 sm:h-8 sm:w-8">
-                        <path d="M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.358 60.358 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.864 60.864 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25H2.25ZM3.75 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM16.5 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z" />
-                    </svg>
-                    <p className="text-xs">Cart</p>
-                </button>
-                <button className="flex flex-col justify-center items-center w-full h-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7 sm:h-8 sm:w-8">
-                        <path fillRule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clipRule="evenodd" />
-                    </svg>
-                    <p className="text-xs">Account</p>
-
-                </button>
-            </div>
-
-
             {/* Mobile menu */}
             <Transition.Root show={openMenu} as={Fragment}>
                 <Dialog as="div" className="relative z-40 lg:hidden" onClose={setOpenMenu}>
@@ -279,7 +248,7 @@ export default function Navbar() {
                                 <Tab.Group as="div" className="mt-2">
                                     <div className="border-b border-gray-200">
                                         <Tab.List className="-mb-px flex space-x-8 px-4">
-                                            {navigation.categories.map((category, index) => (
+                                            {navigation.categories.map((category,index) => (
                                                 <Tab
                                                     key={index}
                                                     className={({ selected }) =>
@@ -295,7 +264,7 @@ export default function Navbar() {
                                         </Tab.List>
                                     </div>
                                     <Tab.Panels as={Fragment}>
-                                        {navigation.categories.map((category, index) => (
+                                        {navigation.categories.map((category,index) => (
                                             <Tab.Panel key={index} className="space-y-10 px-4 pb-8 pt-10">
                                                 <div className="grid grid-cols-2 gap-x-4">
                                                     {category.featured.map((item, index) => (

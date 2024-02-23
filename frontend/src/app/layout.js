@@ -4,6 +4,7 @@ import "./globals.css";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Demo from "./Demo";
+import Demo2 from "./Demo2";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,8 +19,9 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} top-0 max-w-screen-maxW m-auto box-border bg-white`}>
         <Navbar/>
         {/* <Demo/> */}
+        {/* <Demo2/> */}
         {children}
-        <Footer/>
+        {/* <Footer/> */}
       </body>
     </html>
   );
