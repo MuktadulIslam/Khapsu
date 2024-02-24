@@ -1,6 +1,6 @@
 "use client"
 import { Black_Ops_One } from "next/font/google";
-import { Fragment, useState } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
 import { Bars3Icon, MagnifyingGlassIcon, ShoppingBagIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from "next/image";
@@ -14,6 +14,29 @@ const blackOpsOne = Black_Ops_One({
 function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
 }
+
+
+export const openCart = () => {
+    const box = document.getElementById("cartbox");
+    boxContainer.classList.add("w-screen");
+    box.classList.remove("w-0");
+};
+export const quickview = () => {
+    const box = document.getElementById("box");
+    const boxContainer = document.getElementById("box-container");
+
+    boxContainer.classList.remove("invisible");
+    box.classList.add(
+        "opacity-100",
+        "2xl:w-[1000px]",
+        "w-11/12",
+        "2md:w-10/12",
+        "lg:w-9/12",
+        "max-sm:max-h-[750px]",
+        "max-sm:max-w-[400px]"
+    );
+    box.classList.remove("opacity-0", "w-0");
+};
 
 
 const navigation = {
@@ -119,10 +142,175 @@ export default function Navbar() {
         mobileSearchMenu.classList.remove('w-full', 'px-1', 'sm:px-3', '*:h-10')
         mobileSearchMenu.classList.add('w-0')
     };
+
+    const openCart = () => {
+        const cart = document.getElementById("cart");
+        cart.classList.remove('w-0')
+        cart.classList.add('w-11/12', 'sm:w-4/6', 'md:w-3/6', '2md:w-2/5', 'xl:w-2/6')
+        const cartbox = document.getElementById("cartbox");
+        cartbox.classList.remove("invisible");
+    };
+
+    const closeCart = () => {
+        const cart = document.getElementById("cart");
+        cart.classList.add('w-0')
+        cart.classList.remove('w-11/12', 'sm:w-4/6', 'md:w-3/6', '2md:w-2/5', 'xl:w-2/6')
+        const cartbox = document.getElementById("cartbox");
+        cartbox.classList.add("invisible");
+    };
     const [openMenu, setOpenMenu] = useState(false)
+    useEffect(() => {
+        openCart()
+    }, [])
 
     return (
         <>
+            {/* Cart */}
+            <div id="cartbox" onClick={closeCart} className="fixed w-screen h-screen overflow-hidden bg-gray-200 bg-opacity-60 left-0 right-0 top-0 bottom-0 z-50 invisible">
+                <div onClick={(e) => e.stopPropagation()} id="cart" className="absolute top-0 right-0 bottom-0 w-0 max-w-[530px] h-full px-2 bg-white transition-all duration-700 ease-in-out">
+                    <div className="flex h-full w-full flex-col justify-center items-center">
+                        <div className="h-16 2md:h-20 w-full flex-none">
+                            <div className="h-12 2md:h-16 text-black flex items-center justify-between px-2">
+                                <h1 className="text-2xl font-semibold">Shopping cart</h1>
+                                <button onClick={closeCart} className="w-7 h-7 2md:w-8 2md:h-8">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-full h-full">
+                                        <path fillRule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div className="w-full h-0.5 mr-2 bg-gray-500"></div>
+                        </div>
+                        <div className="w-full grow overflow-y-auto">
+                            <div className="flex flex-col overflow-y-auto gap-4 lg:gap-5">
+                                <div className="h-36 w-full bg-slate-500">
+                                    <div className="flex gap-3 h-36 w-full bg-white">
+                                        <div className="h-full aspect-[3/4] flex-none">
+                                            <Image
+                                                src={"/resources/products/1.jpg"}
+                                                alt="cart product image 1"
+                                                width={500}
+                                                height={500}
+                                                className="inset-0 relative w-full h-full object-cover"
+                                            />
+                                        </div>
+                                        <div className="h-full grow overflow-hidden whitespace-nowrap">
+                                            <div>
+                                                <h1 className="text-base font-semibold lg:text-xl whitespace-normal">Summer Special Play Quality Half Sleeve Jersey by NOGOR</h1>
+                                                <h2 className="text-sm lg:text-base text-gray-700 font-medium">
+                                                    Category: <span>Classic Hoodie</span>
+                                                </h2>
+                                                <p className="text-sm lg:text-base text-stone-700 font-medium">
+                                                    <span>Size: M</span>
+                                                    <span className="ml-8">Color: Black</span>
+                                                </p>
+                                            </div>
+                                            <div className="h-7 w-full mt-2">
+                                                <div className="grid grid-cols-7 gap-2 h-8 w-full">
+                                                    <div className="col-span-2 w-full h-8 flex items-center justify-center text-base font-semibold text-gray-700"> <span className="font-serif text-sm ">৳</span>480</div>
+                                                    <div className="col-span-3 w-full h-8 grid grid-cols-3 rounded-lg border border-black">
+                                                        <div className="w-full h-8 flex justify-center items-center text-center rounded-l-lg text-xl">+</div>
+                                                        <div className="w-full h-8 flex justify-center items-center border-x-2 border-solid border-black">2</div>
+                                                        <div className="w-full h-8 flex justify-center items-center rounded-r-lg text-2xl">-</div>
+                                                    </div>
+                                                    <div className="col-span-2 w-full h-full flex items-center justify-center text-lg font-semibold text-gray-900"> <span className="font-serif text-base">৳</span>960
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div className="h-36 w-full bg-slate-500">
+                                    <div className="flex gap-3 h-36 w-full bg-white">
+                                        <div className="h-full aspect-[3/4] flex-none">
+                                            <Image
+                                                src={"/resources/products/1.jpg"}
+                                                alt="cart product image 1"
+                                                width={500}
+                                                height={500}
+                                                className="inset-0 relative w-full h-full object-cover"
+                                            />
+                                        </div>
+                                        <div className="h-full grow overflow-hidden whitespace-nowrap">
+                                            <div>
+                                                <h1 className="text-base font-semibold lg:text-xl whitespace-normal">Summer Special Play Quality Half Sleeve Jersey by NOGOR</h1>
+                                                <h2 className="text-sm lg:text-base text-gray-700 font-medium">
+                                                    Category: <span>Classic Hoodie</span>
+                                                </h2>
+                                                <p className="text-sm lg:text-base text-stone-700 font-medium">
+                                                    <span>Size: M</span>
+                                                    <span className="ml-8">Color: Black</span>
+                                                </p>
+                                            </div>
+                                            <div className="h-7 w-full mt-2">
+                                                <div className="grid grid-cols-7 gap-2 h-8 w-full">
+                                                    <div className="col-span-2 w-full h-8 flex items-center justify-center text-base font-semibold text-gray-700"> <span className="font-serif text-sm ">৳</span>480</div>
+                                                    <div className="col-span-3 w-full h-8 grid grid-cols-3 rounded-lg border border-black">
+                                                        <div className="w-full h-8 flex justify-center items-center text-center rounded-l-lg text-xl">+</div>
+                                                        <div className="w-full h-8 flex justify-center items-center border-x-2 border-solid border-black">2</div>
+                                                        <div className="w-full h-8 flex justify-center items-center rounded-r-lg text-2xl">-</div>
+                                                    </div>
+                                                    <div className="col-span-2 w-full h-full flex items-center justify-center text-lg font-semibold text-gray-900"> <span className="font-serif text-base">৳</span>960
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div className="h-36 w-full bg-slate-500">
+                                    <div className="flex gap-3 h-36 w-full bg-white">
+                                        <div className="h-full aspect-[3/4] flex-none">
+                                            <Image
+                                                src={"/resources/products/1.jpg"}
+                                                alt="cart product image 1"
+                                                width={500}
+                                                height={500}
+                                                className="inset-0 relative w-full h-full object-cover"
+                                            />
+                                        </div>
+                                        <div className="h-full grow overflow-hidden whitespace-nowrap">
+                                            <div>
+                                                <h1 className="text-base font-semibold lg:text-xl whitespace-normal">Summer Special Play Quality Half Sleeve Jersey by NOGOR</h1>
+                                                <h2 className="text-sm lg:text-base text-gray-700 font-medium">
+                                                    Category: <span>Classic Hoodie</span>
+                                                </h2>
+                                                <p className="text-sm lg:text-base text-stone-700 font-medium">
+                                                    <span>Size: M</span>
+                                                    <span className="ml-8">Color: Black</span>
+                                                </p>
+                                            </div>
+                                            <div className="h-7 w-full mt-2">
+                                                <div className="grid grid-cols-7 gap-2 h-8 w-full">
+                                                    <div className="col-span-2 w-full h-8 flex items-center justify-center text-base font-semibold text-gray-700"> <span className="font-serif text-sm ">৳</span>480</div>
+                                                    <div className="col-span-3 w-full h-8 grid grid-cols-3 rounded-lg border border-black">
+                                                        <div className="w-full h-8 flex justify-center items-center text-center rounded-l-lg text-xl">+</div>
+                                                        <div className="w-full h-8 flex justify-center items-center border-x-2 border-solid border-black">2</div>
+                                                        <div className="w-full h-8 flex justify-center items-center rounded-r-lg text-2xl">-</div>
+                                                    </div>
+                                                    <div className="col-span-2 w-full h-full flex items-center justify-center text-lg font-semibold text-gray-900"> <span className="font-serif text-base">৳</span>960
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div className="w-full h-28 flex-none px-4 lg:px-8">
+                            <div className="flex justify-between items-center text-lg lg:text-xl font-semibold my-3 lg:my-4">
+                                <p>Subtotal:</p>
+                                <p><span className="text-lg lg:text-xl">৳</span>14,200<span>.00</span></p>
+                            </div>
+                            <button className="h-12 w-full bg-black rounded-lg text-white">Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            {/* Navbar */}
             <div className="bg-black text-white h-16 2md:h-20 flex z-40">
                 <div id="navbar-items" className="px-1 sm:px-3 w-full h-full flex justify-between max-sm:justify-start items-center transition-all duration-500 ease-in-out">
                     <div className="md:hidden w-9 h-9 mr-2 sm:mr-4 aspect-square">
@@ -179,12 +367,12 @@ export default function Navbar() {
                             <Image className="rounded-full" src={'/profile.jpg'} width={50} height={50} />
                         </div> */}
                         <div className="w-6 h-6 aspect-square 2md:w-7 2md:h-7 2xl:w-8 2xl:h-8 max-md:hidden m-2">
-                            <a href="#" className="group flex items-center">
+                            <button onClick={openCart} className="group flex items-center">
                                 <svg className="h-full w-full flex-shrink-0 text-white hover:text-gray-300" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
                                 </svg>
-                                <span className="absolute text-lg font-medium rounded-full bg-gray-200 -translate-y-4 translate-x-6 w-6 h-6 text-black text-center flex items-center justify-center">9</span>
-                            </a>
+                                <span className="absolute text-lg font-medium rounded-full bg-gray-200 -translate-y-4 translate-x-5 w-6 h-6 text-black text-center flex items-center justify-center">9</span>
+                            </button>
                         </div>
                     </div>
                     <div className="flex justify-end items-center w-full sm:hidden">
@@ -220,7 +408,7 @@ export default function Navbar() {
 
 
             {/* Mobile Bottom Menu */}
-            <div className="fixed bottom-0 w-full h-16 bg-black z-40 grid grid-cols-4 md:hidden gap-0 outline-none text-white">
+            <div className="fixed bottom-0 w-full h-16 bg-black z-40 grid grid-cols-4 md:hidden gap-0 text-white">
                 <button className="flex flex-col justify-center items-center w-full h-full">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7 sm:h-8 sm:w-8">
                         <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
@@ -234,7 +422,7 @@ export default function Navbar() {
                     </svg>
                     <p className="text-xs">Categories</p>
                 </button>
-                <button className="flex flex-col justify-center items-center w-full h-full">
+                <button className="flex flex-col justify-center items-center w-full h-full" onClick={openCart}>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7 sm:h-8 sm:w-8">
                         <path d="M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.358 60.358 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.864 60.864 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25H2.25ZM3.75 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM16.5 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z" />
                     </svg>
@@ -248,7 +436,6 @@ export default function Navbar() {
 
                 </button>
             </div>
-
 
             {/* Mobile menu */}
             <Transition.Root show={openMenu} as={Fragment}>
