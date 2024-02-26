@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import { Black_Ops_One } from "next/font/google";
 import { Fragment, useEffect, useState } from 'react'
 import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
@@ -308,7 +309,7 @@ export default function Navbar() {
 
 
             {/* Navbar */}
-            <div className="bg-black text-white h-[3.5rem] md:h-16 2md:h-20 flex z-40">
+            <div className="bg-black text-white h-[3.5rem] md:h-16 lg:h-20 flex z-40">
                 <div id="navbar-items" className="px-1 sm:px-3 w-full h-full flex justify-between max-sm:justify-start items-center transition-all duration-500 ease-in-out">
                     <div className="md:hidden w-9 h-9 mr-2 sm:mr-4 aspect-square">
                         <button className="w-full h-full" onClick={() => setOpenMenu(true)}>
@@ -320,7 +321,7 @@ export default function Navbar() {
                     </div>
                     <div className="flex justify-start items-center h-full w-full  max-md:w-auto">
                         <div className={`${blackOpsOne.className} text-4xl max-sm:text-5xl 2md:text-6xl lg:text-7xl font-extrabold mr-3 2md:mr-7`}>
-                            Khapsu
+                            <Link href="./">Khapsu</Link>
                         </div>
                         <div className="2md:pr-6 h-full max-md:hidden ">
                             <ul className="flex gap-5 md:gap-4 lg:gap-7 h-full">
@@ -356,9 +357,11 @@ export default function Navbar() {
                             </label>
                         </div>
                         <div className="w-6 h-6 aspect-square 2md:w-7 2md:h-7 2xl:w-8 2xl:h-8 max-md:hidden m-2">
-                            <svg fill="none" viewBox="0 0 24 24" strokeWidth="1.2" stroke="currentColor" className="w-full h-full text-white hover:text-gray-300">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M18 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0ZM3 19.235v-.11a6.375 6.375 0 0 1 12.75 0v.109A12.318 12.318 0 0 1 9.374 21c-2.331 0-4.512-.645-6.374-1.766Z" />
-                            </svg>
+                            <Link href="/login">
+                                <svg fill="none" viewBox="0 0 24 24" strokeWidth="1.2" stroke="currentColor" className="w-full h-full text-white hover:text-gray-300">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M18 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0ZM3 19.235v-.11a6.375 6.375 0 0 1 12.75 0v.109A12.318 12.318 0 0 1 9.374 21c-2.331 0-4.512-.645-6.374-1.766Z" />
+                                </svg>
+                            </Link>
                         </div>
                         {/* <div className="w-7 h-7 aspect-square lg:w-8 lg:h-8 xl:w-9 xl:h-9 max-md:hidden m-2">
                             <Image className="rounded-full" src={'/profile.jpg'} width={50} height={50} />
@@ -407,41 +410,40 @@ export default function Navbar() {
             {/* Mobile Bottom Menu */}
             <div className="fixed bottom-0 w-full h-[3.5rem] bg-black z-40 grid grid-cols-4 md:hidden gap-0 text-white">
                 <button className="flex flex-col justify-center items-center w-full h-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6 sm:h-7 sm:w-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
                         <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
                         <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
                     </svg>
                     <p className="text-xs">Home</p>
                 </button>
                 <button className="flex flex-col justify-center items-center w-full h-full">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6 sm:h-7 sm:w-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
                         <path fillRule="evenodd" d="M3 6a3 3 0 0 1 3-3h2.25a3 3 0 0 1 3 3v2.25a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6Zm9.75 0a3 3 0 0 1 3-3H18a3 3 0 0 1 3 3v2.25a3 3 0 0 1-3 3h-2.25a3 3 0 0 1-3-3V6ZM3 15.75a3 3 0 0 1 3-3h2.25a3 3 0 0 1 3 3V18a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-2.25Zm9.75 0a3 3 0 0 1 3-3H18a3 3 0 0 1 3 3V18a3 3 0 0 1-3 3h-2.25a3 3 0 0 1-3-3v-2.25Z" clipRule="evenodd" />
                     </svg>
                     <p className="text-xs">Categories</p>
                 </button>
                 <button className="flex flex-col justify-center items-center w-full h-full" onClick={openCart}>
                     <div className="relative">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6 sm:h-7 sm:w-7">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
                             <path d="M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.358 60.358 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.864 60.864 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25H2.25ZM3.75 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM16.5 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z" />
                         </svg>
                         <span className="absolute top-0 right-0 h-5 w-5 bg-red-500 rounded-full translate-x-5 flex items-center justify-center text-sm">9</span>
                     </div>
                     <p className="text-xs">Cart</p>
                 </button>
-                <button className="flex flex-col justify-center items-center w-full h-full">
-                    {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6 sm:h-7 sm:w-7">
+                <Link href="./login" className="flex flex-col justify-center items-center w-full h-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
                         <path fillRule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clipRule="evenodd" />
-                    </svg> */}
-                    <Image
+                    </svg>
+                    {/* <Image
                         src={"/profile.jpg"}
                         alt="profile"
                         width={500}
                         height={500}
-                        className="inset-0 relative h-7 w-7 sm:h-8 sm:w-8 object-cover rounded-full"
-                    />
+                        className="inset-0 relative h-7 w-7 object-cover rounded-full"
+                    /> */}
                     <p className="text-xs">Account</p>
-
-                </button>
+                </Link>
             </div>
 
             {/* Mobile menu */}

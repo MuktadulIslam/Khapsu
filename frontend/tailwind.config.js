@@ -33,8 +33,9 @@ module.exports = {
         'menu-item-image-shadow': '0px 5px 10px 0px rgba(0,0,0,0.75)'
       },
       height: {
-        'responsive-full': 'calc(100vh - 8rem)',
-        'responsive-full-md': 'calc(100vh - 5rem)',
+        'mobile-100dhv': 'calc(100vh - 7rem)',
+        'md-mobile-100dhv': 'calc(100vh - 4rem)',
+        'lg-mobile-100dhv': 'calc(100vh - 5rem)',
       }
     },
     fontFamily: {
