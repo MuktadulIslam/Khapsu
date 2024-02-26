@@ -83,13 +83,13 @@ export default function Page() {
 
                             <div>
                                 <div className="flex items-center justify-between">
-                                    <label htmlFor="password" className="block text-sm font-medium leading-6 text-gray-900">Password</label>
+                                    <label htmlFor="password2" className="block text-sm font-medium leading-6 text-gray-900">Password</label>
                                     <div className="text-sm">
                                         <a href="#" className="font-semibold text-indigo-600 hover:text-indigo-400">Forgot password?</a>
                                     </div>
                                 </div>
                                 <div className="mt-2">
-                                    <input id="password" name="password" type="password" autoComplete="current-password" required className="px-2 block w-full rounded-md border py-1.5 text-gray-900 shadow-sm" />
+                                    <input id="password2" name="password2" type="password" autoComplete="current-password" required className="px-2 block w-full rounded-md border py-1.5 text-gray-900 shadow-sm" />
                                 </div>
                             </div>
 
