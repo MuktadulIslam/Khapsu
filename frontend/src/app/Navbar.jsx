@@ -309,7 +309,7 @@ export default function Navbar() {
 
 
             {/* Navbar */}
-            <div className="bg-black text-white h-[3.5rem] md:h-16 lg:h-20 flex z-40">
+            <div className="bg-black text-white h-[3.5rem] xl:h-16 2xl:h-20 flex z-40">
                 <div id="navbar-items" className="px-1 sm:px-3 w-full h-full flex justify-between max-sm:justify-start items-center transition-all duration-500 ease-in-out">
                     <div className="md:hidden w-9 h-9 mr-2 sm:mr-4 aspect-square">
                         <button className="w-full h-full" onClick={() => setOpenMenu(true)}>
@@ -320,7 +320,7 @@ export default function Navbar() {
                         </button>
                     </div>
                     <div className="flex justify-start items-center h-full w-full  max-md:w-auto">
-                        <div className={`${blackOpsOne.className} text-4xl max-sm:text-5xl 2md:text-6xl lg:text-7xl font-extrabold mr-3 2md:mr-7`}>
+                        <div className={`${blackOpsOne.className} text-5xl max-sm:text-5xl 2md:text-6xl 2xl:text-7xl font-extrabold mr-3 2md:mr-7 overflow-hidden`}>
                             <Link href="./">Khapsu</Link>
                         </div>
                         <div className="2md:pr-6 h-full max-md:hidden ">
@@ -422,7 +422,7 @@ export default function Navbar() {
                     </svg>
                     <p className="text-xs">Categories</p>
                 </button>
-                <button className="flex flex-col justify-center items-center w-full h-full" onClick={openCart}>
+                <button id="bottom-navbar-cart" className="flex flex-col justify-center items-center w-full h-full" onClick={openCart}>
                     <div className="relative">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
                             <path d="M2.25 2.25a.75.75 0 0 0 0 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 0 0-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 0 0 0-1.5H5.378A2.25 2.25 0 0 1 7.5 15h11.218a.75.75 0 0 0 .674-.421 60.358 60.358 0 0 0 2.96-7.228.75.75 0 0 0-.525-.965A60.864 60.864 0 0 0 5.68 4.509l-.232-.867A1.875 1.875 0 0 0 3.636 2.25H2.25ZM3.75 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM16.5 20.25a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0Z" />

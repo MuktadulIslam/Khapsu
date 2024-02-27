@@ -34,8 +34,9 @@ module.exports = {
       },
       height: {
         'mobile-100dhv': 'calc(100vh - 7rem)',
-        'md-mobile-100dhv': 'calc(100vh - 4rem)',
-        'lg-mobile-100dhv': 'calc(100vh - 5rem)',
+        'md-mobile-100dhv': 'calc(100vh - 3.5rem)',
+        'xl-mobile-100dhv': 'calc(100vh - 4rem)',
+        '2xl-mobile-100dhv': 'calc(100vh - 5rem)',
       }
     },
     fontFamily: {

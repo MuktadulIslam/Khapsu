@@ -113,24 +113,42 @@ export default function ProductDetails({ productdata }) {
     stockSize.current = (color.stock_size > size.stock_size) ? size.stock_size : size.stock_size;
   }, [selectedColor, selectedSize]);
 
-  const addToCart = () => {
-    let element = document.getElementById("navbar-cart");
-    let rect = element.getBoundingClientRect();
-    console.log(rect.x, "    ", rect.y)
+  const addToCart = (e) => {
+    e.preventDefault();
 
     let product_image = document.getElementById("product-image");
+    let rect = product_image.getBoundingClientRect();
     const clone = product_image.cloneNode(true);
 
     let parentDiv = product_image.parentElement;
     parentDiv.prepend(clone);
-    let a = 200;
 
-    // console.log(parentDiv);
-    product_image.classList.add('translate-x-40', '-translate-y-[500px]', 'z-50', 'w-64', 'h-64')
+    const screenHeight = window.innerHeight;
+    const screenWidth = window.innerWidth;
+
+    product_image.classList.remove('translate-x-0', 'translate-y-0')
+    product_image.classList.remove('w-full', 'h-full')
+    product_image.classList.add('z-50')
+    product_image.classList.add('z-50', 'w-0', 'h-0')
+
+    if (screenWidth < 800) {
+      let element = document.getElementById("bottom-navbar-cart");
+      let rect2 = element.getBoundingClientRect();
+      let x = Math.ceil(Math.abs(rect.x - rect2.x) + 30);
+      let y = Math.ceil(screenHeight - rect.y);
+      product_image.style.transform = `translate(${x}px, ${y}px)`; // Move and scale the image
+    }
+    else {
+      let element = document.getElementById("navbar-cart");
+      let rect2 = element.getBoundingClientRect();
+      let x = Math.ceil(Math.abs(rect.x - rect2.x) + 30);
+      let y = Math.ceil(Math.abs(rect.y - rect2.y));
+      product_image.style.transform = `translate(${x}px, -${y}px)`; // Move and scale the image
+    }
 
     setTimeout(() => {
-      console.log("Function execution completed after 5 seconds");
-  }, 5000);
+      product_image.remove();
+    }, 1000);
   }
 
 
@@ -158,7 +176,7 @@ export default function ProductDetails({ productdata }) {
             </button>
 
             <div className="relative w-full aspect-square sm:w-5/12 sm:h-full sm:mr-4 max-sm:mb-4 rounded-xl">
-              <div id="product-image" className="absolute w-full h-full transition-all duration-700 ease-in translate-x-0 translate-y-0">
+              <div id="product-image" className="absolute w-full h-full transition-all duration-500 ease-in translate-x-0 translate-y-0">
                 <Image
                   src={selectedColor}
                   alt="Product 1"
