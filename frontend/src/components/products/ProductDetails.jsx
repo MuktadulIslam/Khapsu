@@ -109,11 +109,31 @@ export default function ProductDetails({ productdata }) {
   useEffect(() => {
     const color = productdata.colors.find(color => color.img_src === selectedColor);
     const size = productdata.sizes.find(size => size.name === selectedSize);
-    
+
     stockSize.current = (color.stock_size > size.stock_size) ? size.stock_size : size.stock_size;
   }, [selectedColor, selectedSize]);
 
-  
+  const addToCart = () => {
+    let element = document.getElementById("navbar-cart");
+    let rect = element.getBoundingClientRect();
+    console.log(rect.x, "    ", rect.y)
+
+    let product_image = document.getElementById("product-image");
+    const clone = product_image.cloneNode(true);
+
+    let parentDiv = product_image.parentElement;
+    parentDiv.prepend(clone);
+    let a = 200;
+
+    // console.log(parentDiv);
+    product_image.classList.add('translate-x-40', '-translate-y-[500px]', 'z-50', 'w-64', 'h-64')
+
+    setTimeout(() => {
+      console.log("Function execution completed after 5 seconds");
+  }, 5000);
+  }
+
+
   return (
     <>
       {/* Popup View Start*/}
@@ -137,14 +157,16 @@ export default function ProductDetails({ productdata }) {
               </div>
             </button>
 
-            <div className="relative w-full aspect-square sm:w-5/12 sm:h-full sm:mr-4 max-sm:mb-4 rounded-xl overflow-hidden">
-              <Image
-                src={selectedColor}
-                alt="Product 1"
-                layout="fill"
-                objectFit="cover"
-                className="absolute inset-0"
-              />
+            <div className="relative w-full aspect-square sm:w-5/12 sm:h-full sm:mr-4 max-sm:mb-4 rounded-xl">
+              <div id="product-image" className="absolute w-full h-full transition-all duration-700 ease-in translate-x-0 translate-y-0">
+                <Image
+                  src={selectedColor}
+                  alt="Product 1"
+                  layout="fill"
+                  objectFit="cover"
+                  className="absolute inset-0"
+                />
+              </div>
               <button className="absolute bottom-0 w-full h-12 2md:h-16 bg-gray-200 font-semibold font-serif text-base md:text-lg lg:text-xl">
                 View Details
               </button>
@@ -401,12 +423,12 @@ export default function ProductDetails({ productdata }) {
                     </div>
                   </div>
                 </div>
-                <div className="w-full h-full col-span-2 text-center bg-gray-200 hover:text-white hover:bg-black text-sm 2md:text-base font-semibold flex justify-center items-center rounded-lg">
+                <button onClick={addToCart} className="w-full h-full col-span-2 text-center bg-gray-200 hover:text-white hover:bg-black text-sm 2md:text-base font-semibold flex justify-center items-center rounded-lg">
                   Add to Cart
-                </div>
-                <div className="w-full h-full col-span-2 text-center text-white bg-black text-sm 2md:text-base font-semibold flex justify-center items-center rounded-lg hover:scale-105">
+                </button>
+                <button className="w-full h-full col-span-2 text-center text-white bg-black text-sm 2md:text-base font-semibold flex justify-center items-center rounded-lg hover:scale-105">
                   Buy Now
-                </div>
+                </button>
               </div>
               <div className="h-0.5 w-full bg-gray-400 mt-8"></div>
               {/* Add to chart- buy now end*/}
