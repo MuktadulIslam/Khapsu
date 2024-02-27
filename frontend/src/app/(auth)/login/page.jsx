@@ -47,8 +47,8 @@ export default function Page() {
                 <div className="h-0.5 w-full bg-slate-600 mt-3"></div>
 
                 <div className="mt-10 sm:mx-auto w-full overflow-hidden">
-                    <div className="flex flex-row relative w-full h-60">
-                        <form id="email-login" className="space-y-4 h-full w-full translate-x-0 opacity-100 transition-all duration-700">
+                    <div className="flex flex-row relative w-full h-56">
+                        <form id="email-login" className="space-y-2 h-full w-full translate-x-0 opacity-100 transition-all duration-700">
                             <div>
                                 <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">Email address</label>
                                 <div className="mt-2">
@@ -73,7 +73,7 @@ export default function Page() {
                             </div>
                         </form>
 
-                        <form id='mobile-login' className="space-y-4 absolute h-full w-full opacity-0 translate-x-16 sm:translate-x-32 transition-all duration-700">
+                        <form id='mobile-login' className="space-y-2 absolute h-full w-full opacity-0 translate-x-16 sm:translate-x-32 transition-all duration-700">
                             <div>
                                 <label htmlFor="mobile" className="block text-sm font-medium leading-6 text-gray-900">Mobile Number</label>
                                 <div className="mt-2">

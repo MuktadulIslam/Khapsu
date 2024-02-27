@@ -36,9 +36,9 @@ export default function Page() {
 
     return (<>
         <div className="w-full flex justify-center items-center h-mobile-100dhv md:h-md-mobile-100dhv lg:h-lg-mobile-100dhv">
-            <div className="flex min-h-full flex-col justify-center w-[22rem]  sm:w-[30rem]">
-                <div className="w-full max-w-sm">
-                    <h2 className="text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Create your account</h2>
+            <div className="flex min-h-full flex-col justify-center w-[22rem]  sm:w-[30rem] overflow-hidden"> 
+                <div className="w-full">
+                    <h2 className="w-full text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Create your account</h2>
                 </div>
                 <div className="w-full h-8 grid grid-cols-2 gap-5 justify-between items-center mt-5 font-semibold text-xs text-white">
                     <button id="email-button" onClick={regByEmail} className="border bg-indigo-600 text-sm w-full h-full flex justify-center items-center rounded-lg transition-all duration-700">By Email</button>
@@ -48,7 +48,7 @@ export default function Page() {
 
                 <div className="mt-10 sm:mx-auto w-full overflow-hidden">
                     <div className="flex flex-row relative w-full h-72">
-                        <form id="email-login" className="space-y-4 h-full w-full translate-x-0 opacity-100 transition-all duration-700">
+                        <form id="email-login" className="space-y-2 h-full w-full translate-x-0 opacity-100 transition-all duration-700">
                             <div>
                                 <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">Email address</label>
                                 <div className="mt-2">
@@ -75,7 +75,7 @@ export default function Page() {
                             </div>
                         </form>
 
-                        <form id='mobile-login' className="space-y-4 absolute h-full w-full opacity-0 translate-x-16 sm:translate-x-32 transition-all duration-700">
+                        <form id='mobile-login' className="space-y-2 absolute h-full w-full opacity-0 translate-x-16 sm:translate-x-32 transition-all duration-700">
                             <div>
                                 <label htmlFor="mobile" className="block text-sm font-medium leading-6 text-gray-900">Mobile Number</label>
                                 <div className="mt-2">
@@ -105,7 +105,7 @@ export default function Page() {
 
                     <p className="mt-10 text-center text-sm text-gray-500">
                         Already have an account?
-                        <Link href="/login" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">  Sign in</Link>
+                        <Link href="/login" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">Sign up</Link>
                     </p>
                 </div>
             </div>
