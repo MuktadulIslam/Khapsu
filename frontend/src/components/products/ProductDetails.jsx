@@ -134,14 +134,14 @@ export default function ProductDetails({ productdata }) {
     if (screenWidth < 800) {
       let element = document.getElementById("bottom-navbar-cart");
       let rect2 = element.getBoundingClientRect();
-      let x = Math.ceil(Math.abs(rect.x - rect2.x) + 30);
+      let x = Math.ceil(Math.abs(rect.x - rect2.x) + element.offsetWidth/2);
       let y = Math.ceil(screenHeight - rect.y);
       product_image.style.transform = `translate(${x}px, ${y}px)`; // Move and scale the image
     }
     else {
       let element = document.getElementById("navbar-cart");
       let rect2 = element.getBoundingClientRect();
-      let x = Math.ceil(Math.abs(rect.x - rect2.x) + 30);
+      let x = Math.ceil(Math.abs(rect.x - rect2.x) + element.offsetWidth/2);
       let y = Math.ceil(Math.abs(rect.y - rect2.y));
       product_image.style.transform = `translate(${x}px, -${y}px)`; // Move and scale the image
     }

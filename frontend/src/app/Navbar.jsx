@@ -51,7 +51,7 @@ const navigation = {
                     name: 'New Arrivals',
                     short_description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
                     href: '#',
-                    imageSrc: './newarrival.jpg',
+                    imageSrc: '/newarrival.jpg',
                     imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
                 },
                 {
@@ -330,11 +330,25 @@ export default function Navbar() {
                                         <div className="2md:whitespace-nowrap overflow-hidden">
                                             {category.name} <span className="max-2md:hidden">{category.name2nd}</span>
                                         </div>
-                                        <div className="absolute group-hover:w-1/2 group-hover:p-2 group-hover:md:top-[68px] group-hover:2md:top-[85px] p-0 top-8 2md:top-10 w-0 max-w-[700px] bg-black grid grid-cols-2 gap-2 transition-all duration-700 ease-in-out z-40">
-                                            <div className="bg-gray-300 w-full aspect-[5/2]"></div>
-                                            <div className="bg-gray-700 w-full aspect-[5/2]"></div>
-                                            <div className="bg-gray-300 w-full aspect-[5/2]"></div>
-                                            <div className="bg-gray-700 w-full aspect-[5/2]"></div>
+                                        <div className="absolute overflow-hidden group-hover:w-1/2 group-hover:p-2 group-hover:md:top-[64px] group-hover:2md:top-[70px] group-hover:2xl:top-[85px] p-0 top-8 2md:top-10 w-0 max-w-[700px] bg-gray-50 grid grid-cols-2 gap-4 lg:gap-5 transition-all duration-700 ease-in-out z-40 rounded-lg 2md:rounded-xl">
+                                            {category.featured.map((item, index) => (<>
+                                                <Link href="#" key={index} className="w-full aspect-[5/3] xl:aspect-[7/4] text-black shadow-item-hover-shadow">
+                                                    <div className="flex w-full h-full gap-1.5 2md:gap-2">
+                                                        <div className="h-full aspect-[3/4] float-none relative">
+                                                            <Image
+                                                                src={item.imageSrc}
+                                                                alt="Product 1"
+                                                                layout="fill"
+                                                                className="h-full w-full object-cover"
+                                                            />
+                                                        </div>
+                                                        <div className="grow h-full pt-1.5 lg:pt-3 xl:pt-5">
+                                                            <h1 className="text-lg 2md:text-xl lg:text-2xl font-bold max-2md:leading-5 max-2md:pb-2">{item.name}</h1>
+                                                            <h3 className="text-xs 2md:text-sm">{item.short_description}</h3>
+                                                        </div>
+                                                    </div>
+                                                </Link>
+                                            </>))}
                                         </div>
                                     </li>
                                 ))}
@@ -501,10 +515,10 @@ export default function Navbar() {
                                                             </div>
                                                             <span className="absolute inset-0 z-10" aria-hidden="true" />
                                                             <div className='mt-2 block font-medium text-gray-900'>
-                                                                <h1 className="text-base font-semibold">
+                                                                <h1 className="text-sm font-semibold">
                                                                     {item.name}
                                                                 </h1>
-                                                                <p className="text-sm">
+                                                                <p className="text-xs">
                                                                     {item.short_description}
                                                                 </p>
                                                             </div>
