@@ -118,7 +118,7 @@ export default function Header() {
                 <div className="w-full h-full text-stone-800 flex items-center justify-center text-sm font-semibold">
                     <button className="h-full w-2/6 -skew-x-[20deg] border-r border-solid border-gray-500"><p className="skew-x-[20deg]">New Arrival</p></button>
                     <button className="h-full w-2/6 -skew-x-[20deg] border-r border-solid border-gray-500"><p className="skew-x-[20deg]">Tranding</p></button>
-                    <button className="h-full w-2/6 -skew-x-[20deg]"><p className="skew-x-[20deg">Most Selling</p></button>
+                    <button className="h-full w-2/6 -skew-x-[20deg]"><p className="skew-x-[20deg]">Most Selling</p></button>
                 </div>
             </div>
         </div>
