@@ -3,6 +3,7 @@ import React, { createContext, useRef, useState } from 'react';
 // import ProductGrid from "@/components/products/ProductGrid";
 import ProductGrid from "../components/products/ProductGrid";
 import data from "../../data/productdata.json";
+import Titlebar from './Titlebar';
 
 export default function MainPage() {
   const productsdata = data.products;
@@ -18,15 +19,16 @@ export default function MainPage() {
     <>
       <ProductDetailsContext.Provider value={{ selectedProduct, setSelectedProduct }}>
 
-      <div className="w-full h-20 bg-gray-400 text-2xl text-white text-center"> New Arrival</div>
+      <Titlebar link={""} title={"Optimized Experience"} discription={"Setup your site and ready to witness your store’s conversion boosted by 120% a day."}/>
       <ProductGrid productsdata={newarrivalProducts}/>
       <div className="my-10"></div>
 
-      <div className="w-full h-20 bg-gray-400 text-2xl text-white text-center">Tranding Products</div>
+      <Titlebar link={""} title={"Tranding Products"} discription={"Setup your site and ready to witness your store’s conversion boosted by 120% a day."}/>
+
       <ProductGrid productsdata={trandingProducts}/>
       <div className="my-10"></div>
 
-      <div className="w-full h-20 bg-gray-400 text-2xl text-white text-center"> Most Selling</div>
+      <Titlebar link={""} title={"Most Selling"} discription={"Setup your site and ready to witness your store’s conversion boosted by 120% a day."}/>
       <ProductGrid productsdata={mostsellingProducts}/>
       <div className="my-10"></div>
     </ProductDetailsContext.Provider>

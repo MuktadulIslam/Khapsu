@@ -35,7 +35,7 @@ export default function Page() {
     }
 
     return (<>
-        <div className="w-full flex justify-center items-center h-mobile-100dhv md:h-md-mobile-100dhv xl:h-xl-mobile-100dhv 2xl:h-2xl-mobile-100dhv">
+        <div className="w-full h-full flex justify-center items-center">
             <div className="flex min-h-full flex-col justify-center w-[22rem]  sm:w-[30rem] overflow-hidden"> 
                 <div className="w-full">
                     <h2 className="w-full text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Create your account</h2>

@@ -165,7 +165,7 @@ export default function Navbar() {
         <>
             {/* Cart */}
             <div id="cartbox" onClick={closeCart} className="fixed w-screen h-screen overflow-hidden bg-gray-200 bg-opacity-60 left-0 right-0 top-0 bottom-0 z-50 invisible">
-                <div onClick={(e) => e.stopPropagation()} id="cart" className="absolute top-0 right-0 bottom-0 w-0 max-w-[530px] h-full px-2 bg-white transition-all duration-700 ease-in-out">
+                <div onClick={(e) => e.stopPropagation()} id="cart" className="absolute top-0 right-0 bottom-0 w-0 max-w-[380px] h-full px-2 bg-white transition-all duration-700 ease-in-out">
                     <div className="flex h-dvh w-full flex-col justify-center items-center">
                         <div className="h-16 2md:h-20 w-full flex-none">
                             <div className="h-12 2md:h-16 text-black flex items-center justify-between px-2">
@@ -331,24 +331,27 @@ export default function Navbar() {
                                             {category.name} <span className="max-2md:hidden">{category.name2nd}</span>
                                         </div>
                                         <div className="absolute overflow-hidden group-hover:w-1/2 group-hover:p-2 group-hover:md:top-[64px] group-hover:2md:top-[70px] group-hover:2xl:top-[85px] p-0 top-8 2md:top-10 w-0 max-w-[700px] bg-gray-50 grid grid-cols-2 gap-4 lg:gap-5 transition-all duration-700 ease-in-out z-40 rounded-lg 2md:rounded-xl">
-                                            {category.featured.map((item, index) => (<>
-                                                <Link href="#" key={index} className="w-full aspect-[5/3] xl:aspect-[7/4] text-black shadow-item-hover-shadow">
-                                                    <div className="flex w-full h-full gap-1.5 2md:gap-2">
-                                                        <div className="h-full aspect-[3/4] float-none relative">
-                                                            <Image
-                                                                src={item.imageSrc}
-                                                                alt="Product 1"
-                                                                layout="fill"
-                                                                className="h-full w-full object-cover"
-                                                            />
+                                            {category.featured.map((item, index2) => (
+                                                <div key={index2} className="w-full aspect-[5/3] xl:aspect-[7/4] text-black shadow-item-hover-shadow">
+                                                    <Link href="#" className="w-full h-full">
+                                                        <div className="flex w-full h-full gap-1.5 2md:gap-2">
+                                                            <div className="h-full aspect-[3/4] float-none relative">
+                                                                <Image
+                                                                    src={item.imageSrc}
+                                                                    alt="Product 1"
+                                                                    layout="fill"
+                                                                    className="h-full w-full object-cover"
+                                                                />
+                                                            </div>
+                                                            <div className="grow h-full pt-1.5 lg:pt-3 xl:pt-5">
+                                                                <h1 className="text-lg 2md:text-xl lg:text-2xl font-bold max-2md:leading-5 max-2md:pb-2">{item.name}</h1>
+                                                                <h3 className="text-xs 2md:text-sm">{item.short_description}</h3>
+                                                            </div>
                                                         </div>
-                                                        <div className="grow h-full pt-1.5 lg:pt-3 xl:pt-5">
-                                                            <h1 className="text-lg 2md:text-xl lg:text-2xl font-bold max-2md:leading-5 max-2md:pb-2">{item.name}</h1>
-                                                            <h3 className="text-xs 2md:text-sm">{item.short_description}</h3>
-                                                        </div>
-                                                    </div>
-                                                </Link>
-                                            </>))}
+                                                    </Link>
+                                                </div>
+                                            ))}
+
                                         </div>
                                     </li>
                                 ))}
@@ -508,8 +511,8 @@ export default function Navbar() {
                                         {navigation.categories.map((category, index) => (
                                             <Tab.Panel key={index} className="space-y-10 px-4 pb-8 pt-10">
                                                 <div className="grid grid-cols-2 gap-x-4">
-                                                    {category.featured.map((item, index) => (
-                                                        <a href={item.href} key={index} className="group relative text-sm pb-6">
+                                                    {category.featured.map((item, index2) => (
+                                                        <a href={item.href} key={index2} className="group relative text-sm pb-6">
                                                             <div className="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75 shadow-item-shadow">
                                                                 <img src={item.imageSrc} alt={item.imageAlt} className="object-center aspect-square object-cover" />
                                                             </div>

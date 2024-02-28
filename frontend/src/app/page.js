@@ -4,7 +4,9 @@
 // import ProductGrid from "@/components/products/ProductGrid";
 // // import ProductDetails from "@/components/products/ProductGrid";
 // import ProductDetails from "../components/products/ProductDetails";
+import Header from "./Header";
 import MainPage from "./MainPage";
+import Titlebar from "./Titlebar";
 
 export default function Home() {
   return (
@@ -15,7 +17,9 @@ export default function Home() {
         <ProductGrid />
         </ProductDetailsContext.Provider> */}
         {/* <ProductDetails/> */}
+        <Header/>
         <MainPage/>
+        {/* <Titlebar/> */}
       </div>
     </>
   );
